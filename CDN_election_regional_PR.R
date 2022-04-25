@@ -1,7 +1,7 @@
 libraries_needed<-c("data.table", "openxlsx", "magrittr", "stringr",
-                    "lubridate")
+                    "lubridate", "ggplot2")
 lapply(libraries_needed,require,character.only=TRUE)
-setwd("C:/HY/Elections")
+setwd("C:/HY/Projects/Elections")
 PR_THRESHOLD_PCT<-5 / 100
 region_definitions<-fread("CDN_regional_definitions.csv")
 
@@ -11,7 +11,6 @@ all_ridings_pre_2010<-fread("HFER_e.csv")
 # 3) "No affiliation" in Party is considered Independent
 all_ridings_pre_2010[,`:=`(Party=ifelse(
   grepl("^No affiliation", Party, ignore.case=T), "Independent", Party),
-  election_type_human=ifelse(`Election Type`=="Gen", "General", "By-election"),
   election_year=ifelse(grepl('Gen',
                              `Election Type`,
                              ignore.case=T),
@@ -29,16 +28,41 @@ all_ridings_pre_2010 %<>% merge(region_definitions, by="Province")
 # TMP #
 YEAR<-1984
 
-# all_ridings<-fread("cdn_election_35_1993Oct_candidates_all ridings-CLEANED.csv")
-# # "No affilitation to a recognised party" is considered Independent
-# all_ridings[grepl("^No affiliation", `Political Affiliation`, ignore.case=T),
-#             `Political Affiliation`:="Independent"]
-elected_mps<-all_ridings[grepl("Elected", Result, ignore.case=T),
-                         riding_count:=.N,
-                         by=.(Region)][
-                           !is.na(riding_count),]
-# remove variable (to be JOINed back in)
-all_ridings<-all_ridings[,riding_count:=NULL]
+obtain_region_yr<-function(full_dt) {
+  elected_mps<-full_dt[Elected & grepl(
+    "Gen", `Election Type`,ignore.case=T),]
+  region_ridings_yr<-elected_mps[,
+                                 riding_count:=.N,
+                                 ,by=.(election_year,Region)] %>%
+    unique(by=c("election_year", "Region"))
+  region_ridings_yr<-region_ridings_yr[,.(election_year,
+                                          Region,
+                                          riding_count)]
+  return(region_ridings_yr)
+}
+region_ridings_yr<-obtain_region_yr(all_ridings_pre_2010)
+
+viz_by_region_yr<-function(dt) {
+  dt %>% ggplot(aes(election_year, riding_count)) +
+    geom_line() +
+    facet_wrap(~Region)
+}
+viz_by_region_yr(region_ridings_yr)
+  
+# the Alberta riding of Victoria is erroneously classified as "Gen"
+all_ridings_pre_2010[grepl("Alberta", Province, ignore.case=T) &
+                       grepl("VICTORIA", Riding, ignore.case=T) &
+                       election_year==1909,
+                     `Election Type`:="B/P"]
+all_ridings_pre_2010[,election_type_human:=ifelse(
+  `Election Type`=="Gen", "General", "By-election"),]
+
+# re-calculate data tables
+region_ridings_yr<-obtain_region_yr(all_ridings_pre_2010)
+## fixed now
+viz_by_region_yr(region_ridings_yr)
+
+## TODO: update below
 ridings_by_region<-elected_mps %>% unique(by=c("Region", "riding_count"))
 ridings_by_region<-ridings_by_region[,.(Region, riding_count)]
 
