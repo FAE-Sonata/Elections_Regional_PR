@@ -1,76 +1,98 @@
 libraries_needed<-c("data.table", "openxlsx", "magrittr", "stringr",
                     "lubridate", "ggplot2")
 lapply(libraries_needed,require,character.only=TRUE)
+
 setwd("C:/HY/Projects/Elections")
 PR_THRESHOLD_PCT<-5 / 100
 region_definitions<-fread("CDN_regional_definitions.csv")
 
-## TODO: use HFER_e.csv (combined file)
-all_ridings_pre_2010<-fread("HFER_e.csv")
-# cleaning; 1) extract election year; 2) "accl." is elected unopposed
-# 3) "No affiliation" in Party is considered Independent
-all_ridings_pre_2010[,`:=`(Party=ifelse(
-  grepl("^No affiliation", Party, ignore.case=T), "Independent", Party),
-  election_year=ifelse(grepl('Gen',
-                             `Election Type`,
-                             ignore.case=T),
-                       `Election Date` %>%
-                         ymd %>%
-                         year,
-                       NA),
-  cleaned_votes=as.integer(Votes),
-  `Votes (%)`=ifelse(grepl("accl", Votes,
-                           ignore.case=T),
-                     100,
-                     `Votes (%)`))]
-# join with regional definitions
-all_ridings_pre_2010 %<>% merge(region_definitions, by="Province")
-# TMP #
-YEAR<-1984
+all_elxn<-read.xlsx("cdn_generalelection_1_44_candidates.xlsx") %>% as.data.table
+parl_num_indices<-which(grepl("^Parliament:\\s*\\d+",
+                              all_elxn$Province.or.Territory))
+re_ymd<-"\\d+\\-[0-1]\\d\\-[0-3]\\d"
+ge_date_indices<-which(grepl(paste0("^Date of Election:\\s*", re_ymd),
+                             all_elxn$Province.or.Territory))
+stopifnot(all(ge_date_indices - parl_num_indices == 2))
+parl_num<-all_elxn$Province.or.Territory[parl_num_indices] %>%
+  str_extract(pattern="\\d+") %>%
+  as.integer
+ge_dates<-all_elxn$Province.or.Territory[ge_date_indices] %>%
+  str_extract(pattern=re_ymd)
+# upper_limits<-c(parl_num_indices[-1]-1, nrow(all_elxn))
+create_from_header<-function(indices, info) {
+  # indices<-parl_num_indices
+  # info<-parl_num
+  stopifnot(length(info) == length(indices))
+  upper_limits<-c(indices[-1]-1, nrow(all_elxn))
+  return(lapply(seq(length(indices)), function(k) rep(
+    info[k], upper_limits[k] - indices[k] + 1)) %>% unlist)
+  # return(do.call(rbind, chunks))
+}
 
+all_elxn<-all_elxn[,`:=`(
+  Parliament=create_from_header(parl_num_indices, parl_num),
+  Date=create_from_header(parl_num_indices, ge_dates) %>% ymd
+)][!is.na(Constituency),]
+old_size<-nrow(all_elxn)
+
+# "MacLean, John Angus" in PEI 1953 repeated (remove this & possible other similar cases)
+all_elxn<-unique(all_elxn, by=c("Parliament", "Constituency",
+                                "Political.Affiliation", "Candidate"))
+new_size<-nrow(all_elxn)
+new_size - old_size
+
+all_elxn<-all_elxn[,num_candidates:=.N,
+                   by=.(Political.Affiliation, Parliament)][
+                     ,elected:=grepl("Elected",Result)][
+                       ,all_seats:=sum(elected), by=.(Parliament)
+                     ]
+hoc_size_by_parl<-unique(all_elxn, by=c("Parliament", "all_seats"))
+hoc_size_by_parl<-hoc_size_by_parl[,.(Parliament, all_seats)]
+hoc_size_by_parl %>% ggplot(aes(x=Parliament, y=all_seats)) + geom_line()
+# spot check: OK, postwar, only 27th to the 28th (1965 Pearson to 1968 Trudeau)
+# had a decrease in seats
+all_elxn<-all_elxn[year(Date) >= 1921,]
+setnames(all_elxn, c("Province.or.Territory"), c("Province"))
+all_elxn %<>% merge(region_definitions, by="Province")
+all_elxn<-all_elxn[,election_year:=year(Date)]
+
+# aggregates of seat counts by region, election
 obtain_region_yr<-function(full_dt) {
-  elected_mps<-full_dt[Elected & grepl(
-    "Gen", `Election Type`,ignore.case=T),]
-  region_ridings_yr<-elected_mps[,
-                                 riding_count:=.N,
-                                 ,by=.(election_year,Region)] %>%
+  region_ridings_yr<-full_dt[
+    elected==T,
+    riding_count:=.N,
+    ,by=.(election_year,Region)] %>%
     unique(by=c("election_year", "Region"))
   region_ridings_yr<-region_ridings_yr[,.(election_year,
                                           Region,
                                           riding_count)]
   return(region_ridings_yr)
 }
-region_ridings_yr<-obtain_region_yr(all_ridings_pre_2010)
+region_ridings_yr<-obtain_region_yr(all_elxn)
+setkeyv(region_ridings_yr,c("election_year", "Region"))
 
+# another spot check
 viz_by_region_yr<-function(dt) {
   dt %>% ggplot(aes(election_year, riding_count)) +
     geom_line() +
     facet_wrap(~Region)
 }
 viz_by_region_yr(region_ridings_yr)
+setkeyv(all_elxn, c("election_year", "Region"))
+all_elxn[region_ridings_yr, riding_count := i.riding_count] # use 2nd instance of riding_count
 
-# the Alberta riding of Victoria is erroneously classified as "Gen"
-all_ridings_pre_2010[grepl("Alberta", Province, ignore.case=T) &
-                       grepl("VICTORIA", Riding, ignore.case=T) &
-                       election_year==1909,
-                     `Election Type`:="B/P"]
-all_ridings_pre_2010[,election_type_human:=ifelse(
-  `Election Type`=="Gen", "General", "By-election"),]
-
-# re-calculate data tables
-region_ridings_yr<-obtain_region_yr(all_ridings_pre_2010)
-## fixed now
-viz_by_region_yr(region_ridings_yr)
-
-all_ridings_pre_2010 %<>% merge.data.table(region_ridings_yr,
-                                           by=c("election_year",
-                                                "Region"))
-party_votes_by_region<-all_ridings_pre_2010[election_type_human=="General",
-                                            total_votes:=sum(cleaned_votes,
-                                                             na.rm=T),
-                                            by=.(election_year,
-                                                 Region,
-                                                 Party)] %>%
+# TODO: aggregate votes by party, by region, by election year
+setnames(all_elxn, c("Political.Affiliation"), c("Party"))
+Filter(function(x) grepl("ind|no", x, ignore.case = T),
+       unique(all_elxn$Party))
+non_affiliated<-Filter(function(x) grepl("affil", x, ignore.case = T),
+                       unique(all_elxn$Party))
+all_elxn[Party %in% c("Unknown", "Independent"),Party:=non_affiliated]
+party_votes_by_region<-all_elxn[,
+                                total_votes:=sum(Votes),
+                                by=.(election_year,
+                                     Region,
+                                     Party)] %>%
   unique(by=c("election_year",
               "Region",
               "Party"))
@@ -80,13 +102,8 @@ party_votes_by_region<-party_votes_by_region[,.(election_year,
                                                 riding_count,
                                                 Party,
                                                 total_votes)]
-# ridings_by_raw_majority<-function(dt_ridings) {
-#   # dt_ridings<-all_ridings
-# }
-mulroney_landslide<-party_votes_by_region[election_year==1984,]
 
 calc_dhondt<-function(dt_region_party_totals) {
-  # dt_region_party_totals<-mulroney_landslide
   total_votes_by_region<-dt_region_party_totals[
     ,all_votes:=sum(total_votes),
     by=.(Region)][
@@ -133,26 +150,17 @@ calc_dhondt<-function(dt_region_party_totals) {
   return(rbindlist(lst_mps_by_region))
 }
 
-three_party_elections<-party_votes_by_region[election_year > 1920,]
-lst_three<-split(three_party_elections, three_party_elections$election_year)
+lst_three<-split(party_votes_by_region, party_votes_by_region$election_year)
 lst_pr_by_yr<-lapply(lst_three, calc_dhondt)
 pr_by_yr<-rbindlist(lst_pr_by_yr)
 
-## TODO: update
-mps_by_party_region<-calc_dhondt(party_votes_by_region)
-national_total_mps<-mps_by_party_region[,total_mps:=sum(MPs),
-                                        by=.(`Political Affiliation`)] %>%
-  unique(by=c("Political Affiliation",
-              "total_mps"))
-national_total_mps<-national_total_mps[,.(`Political Affiliation`,
-                                          total_mps)]
 ## TODO: calculate Gallagher, aggreggate non-represented parties into OTHERS
-national_total_votes<-all_ridings[,national_votes:=sum(Votes),
-                                  by=.(`Political Affiliation`)] %>%
-  unique(by="Political Affiliation")
-national_total_votes<-national_total_votes[
-  ,.(`Political Affiliation`, national_votes)][
-    ,all_votes:=sum(all_ridings$Votes)
-  ][
-    ,pct_vote:=100 * (national_votes/all_votes)
-  ]
+# national_total_votes<-all_ridings[,national_votes:=sum(Votes),
+#                                   by=.(`Political Affiliation`)] %>%
+#   unique(by="Political Affiliation")
+# national_total_votes<-national_total_votes[
+#   ,.(`Political Affiliation`, national_votes)][
+#     ,all_votes:=sum(all_ridings$Votes)
+#   ][
+#     ,pct_vote:=100 * (national_votes/all_votes)
+#   ]

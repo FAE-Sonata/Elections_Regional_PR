@@ -1,0 +1,29 @@
+---
+title: What Regional Proportional Representative (PR) would have looked like for Canada,
+  since 1921
+author: "Kevin H.Y. Shu"
+date: "13 May 2022"
+output: ioslides_presentation
+---
+
+FOR README
+Go to [Parliament site](https://lop.parl.ca/sites/ParlInfo/default/en_CA/ElectionsRidings/Elections), filter "Type of Elections" to "General", in "Column Chooser", uncheck "Picture" 
+
+<!-- ```{r setup, include=FALSE} -->
+<!-- knitr::opts_chunk$set(echo = FALSE) -->
+<!-- ``` -->
+
+<!--
+PHL submission form: https://docs.google.com/forms/d/e/1FAIpQLScScnht5s6CW798kIPpGeV8YdLGZMTU6WXcm5j8O3CtVnJtbw/viewform
+Talk title: Using Shiny to Visualize Hypothetical Regional Proportional Representation
+
+Short abstract: The last two Canadian federal elections have resulted in a situation where the party that wins the most seats (and forms government) but not a plurality of the popular vote. This has renewed calls for change away the First-Past-The-Post (FPTP) system. This talk aims to examine hypothetical results if FPTP were changed to two forms of Proportional Representation at the regional level.
+-->
+
+## Shortcomings of Dashboard
+
+- Party strategy will necessarily be different under any form of PR. For instance, the Alba Party only ran list (additional PR MSPs) candidates in the May 2021 Scottish Parliament election.
+- Does not consider seats at dissolution / dropping of writ; election broadcast coverage change is reported relative to that instead of the prior election
+- Does not take into account redistributions
+
+- May inaccurately account for removals of candidates by the parties after the ballot deadline, e.g. Spadina—Fort York in the 2021 snap election.
