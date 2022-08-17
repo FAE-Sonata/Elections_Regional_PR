@@ -81,7 +81,6 @@ viz_by_region_yr(region_ridings_yr)
 setkeyv(all_elxn, c("election_year", "Region"))
 all_elxn[region_ridings_yr, riding_count := i.riding_count] # use 2nd instance of riding_count
 
-# TODO: aggregate votes by party, by region, by election year
 setnames(all_elxn, c("Political.Affiliation"), c("Party"))
 Filter(function(x) grepl("ind|no", x, ignore.case = T),
        unique(all_elxn$Party))
@@ -102,6 +101,15 @@ party_votes_by_region<-party_votes_by_region[,.(election_year,
                                                 riding_count,
                                                 Party,
                                                 total_votes)]
+
+aggregate_fptp<-function(dt_seats)  {
+  dt_seats<-all_elxn
+  return(dt_seats[,FPTP_MPs:=sum(elected),
+                  by=.(election_year, Region, Party)] %>%
+           unique(by=c("election_year",
+                       "Region",
+                       "Party")))
+}
 
 calc_dhondt<-function(dt_region_party_totals) {
   total_votes_by_region<-dt_region_party_totals[
@@ -153,6 +161,44 @@ calc_dhondt<-function(dt_region_party_totals) {
 lst_three<-split(party_votes_by_region, party_votes_by_region$election_year)
 lst_pr_by_yr<-lapply(lst_three, calc_dhondt)
 pr_by_yr<-rbindlist(lst_pr_by_yr)
+setnames(pr_by_yr, c("MPs"), c("Regional_PR_MPs"))
+
+fptp_results<-aggregate_fptp(all_elxn)
+keycols<-Filter(function(x) !grepl("riding", x),
+                names(pr_by_yr)[-ncol(pr_by_yr)])
+fptp_names<-c(keycols, "FPTP_MPs")
+fptp_results<-fptp_results[,..fptp_names]
+
+# takes one of the above data tables and calculates national totals
+calc_national_totals<-function(dt)  {
+  # dt<-fptp_results
+  original_name<-Filter(function(s) grepl("MPs$", s), names(dt))
+  tmp_name<-"MPs"
+  INTERMEDIATE_NAME<-"national_total"
+  setnames(dt, original_name, tmp_name)
+  
+  dt_national<-dt[,national_total:=sum(MPs), by=.(election_year, Party)]
+  # remove "MPs" column from dt_national without affecting dt
+  national_names<-Filter(function(s) s != tmp_name, names(dt_national))
+  dt_national<-dt_national[,..national_names]
+  # avoid in-place modification
+  dt_national$Region<-"NATIONAL"
+  
+  modified_names<-Filter(function(s) s != INTERMEDIATE_NAME, names(dt))
+  dt<-dt[,..modified_names]
+  
+  setnames(dt, tmp_name, original_name)
+  setnames(dt_national, INTERMEDIATE_NAME, original_name)
+  dt_national<-unique(dt_national, by=c("election_year", "Party"))
+  return(rbind(dt, dt_national))
+}
+pr_by_yr<-calc_national_totals(pr_by_yr)
+fptp_results<-calc_national_totals(fptp_results)
+
+setkeyv(pr_by_yr, keycols); setkeyv(fptp_results, keycols)
+actual_vs_pr_results<-merge(pr_by_yr, fptp_results, no.dups = T)
+fwrite(actual_vs_pr_results, "FPTP_vs_regional_PR_all_elections.csv")
+# fwrite()
 
 ## TODO: calculate Gallagher, aggreggate non-represented parties into OTHERS
 # national_total_votes<-all_ridings[,national_votes:=sum(Votes),

@@ -14,7 +14,6 @@ Go to [Parliament site](https://lop.parl.ca/sites/ParlInfo/default/en_CA/Electio
 <!-- ``` -->
 
 <!--
-PHL submission form: https://docs.google.com/forms/d/e/1FAIpQLScScnht5s6CW798kIPpGeV8YdLGZMTU6WXcm5j8O3CtVnJtbw/viewform
 Talk title: Using Shiny to Visualize Hypothetical Regional Proportional Representation
 
 Short abstract: The last two Canadian federal elections have resulted in a situation where the party that wins the most seats (and forms government) but not a plurality of the popular vote. This has renewed calls for change away the First-Past-The-Post (FPTP) system. This talk aims to examine hypothetical results if FPTP were changed to two forms of Proportional Representation at the regional level.
