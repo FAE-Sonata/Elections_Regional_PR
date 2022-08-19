@@ -1,0 +1,862 @@
+Party,election_year,Region,riding_count,Regional_PR_MPs,FPTP_MPs,Hexadecimal_colour
+Bloc Québécois,1993,NATIONAL,75,39,54,#87CEFA
+Bloc Québécois,1993,QC,75,39,54,#87CEFA
+Bloc Québécois,1997,NATIONAL,75,29,44,#87CEFA
+Bloc Québécois,1997,QC,75,29,44,#87CEFA
+Bloc Québécois,2000,NATIONAL,75,32,38,#87CEFA
+Bloc Québécois,2000,QC,75,32,38,#87CEFA
+Bloc Québécois,2004,NATIONAL,75,40,54,#87CEFA
+Bloc Québécois,2004,QC,75,40,54,#87CEFA
+Bloc Québécois,2006,NATIONAL,75,34,51,#87CEFA
+Bloc Québécois,2006,QC,75,34,51,#87CEFA
+Bloc Québécois,2008,NATIONAL,75,30,49,#87CEFA
+Bloc Québécois,2008,QC,75,30,49,#87CEFA
+Bloc Québécois,2011,NATIONAL,75,18,4,#87CEFA
+Bloc Québécois,2011,QC,75,18,4,#87CEFA
+Bloc Québécois,2015,NATIONAL,78,16,10,#87CEFA
+Bloc Québécois,2015,QC,78,16,10,#87CEFA
+Bloc Québécois,2019,NATIONAL,78,27,32,#87CEFA
+Bloc Québécois,2019,QC,78,27,32,#87CEFA
+Bloc Québécois,2021,NATIONAL,78,27,32,#87CEFA
+Bloc Québécois,2021,QC,78,27,32,#87CEFA
+Bloc populaire canadien,1945,NATIONAL,82,8,2,#87CEFA
+Bloc populaire canadien,1945,QC,65,8,2,#87CEFA
+Canadian Reform Conservative Alliance,2000,ATLANTIC,32,3,0,#5F9EA0
+Canadian Reform Conservative Alliance,2000,BC,34,18,27,#5F9EA0
+Canadian Reform Conservative Alliance,2000,NATIONAL,32,78,66,#5F9EA0
+Canadian Reform Conservative Alliance,2000,ON,103,25,2,#5F9EA0
+Canadian Reform Conservative Alliance,2000,PRAIRIE,54,28,37,#5F9EA0
+Canadian Reform Conservative Alliance,2000,QC,75,4,0,#5F9EA0
+Co-operative Commonwealth Federation,1935,BC,16,6,3,#EEDDAA
+Co-operative Commonwealth Federation,1935,NATIONAL,16,23,7,#EEDDAA
+Co-operative Commonwealth Federation,1935,ON,82,6,0,#EEDDAA
+Co-operative Commonwealth Federation,1935,PRAIRIE,55,11,4,#EEDDAA
+Co-operative Commonwealth Federation,1940,ATLANTIC,26,0,1,#EEDDAA
+Co-operative Commonwealth Federation,1940,BC,16,5,1,#EEDDAA
+Co-operative Commonwealth Federation,1940,NATIONAL,26,18,8,#EEDDAA
+Co-operative Commonwealth Federation,1940,PRAIRIE,55,13,6,#EEDDAA
+Co-operative Commonwealth Federation,1945,ATLANTIC,26,3,1,#EEDDAA
+Co-operative Commonwealth Federation,1945,BC,16,5,4,#EEDDAA
+Co-operative Commonwealth Federation,1945,NATIONAL,26,39,28,#EEDDAA
+Co-operative Commonwealth Federation,1945,ON,82,12,0,#EEDDAA
+Co-operative Commonwealth Federation,1945,PRAIRIE,55,19,23,#EEDDAA
+Co-operative Commonwealth Federation,1949,ATLANTIC,34,2,1,#EEDDAA
+Co-operative Commonwealth Federation,1949,BC,18,6,3,#EEDDAA
+Co-operative Commonwealth Federation,1949,NATIONAL,34,35,13,#EEDDAA
+Co-operative Commonwealth Federation,1949,ON,83,13,1,#EEDDAA
+Co-operative Commonwealth Federation,1949,PRAIRIE,53,14,8,#EEDDAA
+Co-operative Commonwealth Federation,1953,ATLANTIC,33,0,1,#EEDDAA
+Co-operative Commonwealth Federation,1953,BC,22,6,7,#EEDDAA
+Co-operative Commonwealth Federation,1953,NATIONAL,33,28,23,#EEDDAA
+Co-operative Commonwealth Federation,1953,ON,85,9,1,#EEDDAA
+Co-operative Commonwealth Federation,1953,PRAIRIE,48,13,14,#EEDDAA
+Co-operative Commonwealth Federation,1957,BC,22,5,7,#EEDDAA
+Co-operative Commonwealth Federation,1957,NATIONAL,33,25,25,#EEDDAA
+Co-operative Commonwealth Federation,1957,ON,85,10,3,#EEDDAA
+Co-operative Commonwealth Federation,1957,PRAIRIE,48,10,15,#EEDDAA
+Co-operative Commonwealth Federation,1958,BC,22,5,4,#EEDDAA
+Co-operative Commonwealth Federation,1958,NATIONAL,33,22,8,#EEDDAA
+Co-operative Commonwealth Federation,1958,ON,85,9,3,#EEDDAA
+Co-operative Commonwealth Federation,1958,PRAIRIE,48,8,1,#EEDDAA
+Conservative (1867-1942),1921,ATLANTIC,31,11,5,#9999FF
+Conservative (1867-1942),1921,BC,13,7,7,#9999FF
+Conservative (1867-1942),1921,NATIONAL,31,74,49,#9999FF
+Conservative (1867-1942),1921,ON,82,34,36,#9999FF
+Conservative (1867-1942),1921,PRAIRIE,43,9,0,#9999FF
+Conservative (1867-1942),1921,QC,65,12,0,#9999FF
+Conservative (1867-1942),1921,TERRITORIES,1,1,1,#9999FF
+Conservative (1867-1942),1925,ATLANTIC,29,17,23,#9999FF
+Conservative (1867-1942),1925,BC,14,8,10,#9999FF
+Conservative (1867-1942),1925,NATIONAL,29,118,115,#9999FF
+Conservative (1867-1942),1925,ON,82,49,67,#9999FF
+Conservative (1867-1942),1925,PRAIRIE,54,19,10,#9999FF
+Conservative (1867-1942),1925,QC,65,24,4,#9999FF
+Conservative (1867-1942),1925,TERRITORIES,1,1,1,#9999FF
+Conservative (1867-1942),1926,ATLANTIC,29,16,20,#9999FF
+Conservative (1867-1942),1926,BC,14,8,12,#9999FF
+Conservative (1867-1942),1926,NATIONAL,29,115,91,#9999FF
+Conservative (1867-1942),1926,ON,82,48,53,#9999FF
+Conservative (1867-1942),1926,PRAIRIE,54,19,1,#9999FF
+Conservative (1867-1942),1926,QC,65,23,4,#9999FF
+Conservative (1867-1942),1926,TERRITORIES,1,1,1,#9999FF
+Conservative (1867-1942),1930,ATLANTIC,29,16,23,#9999FF
+Conservative (1867-1942),1930,BC,14,7,7,#9999FF
+Conservative (1867-1942),1930,NATIONAL,29,123,136,#9999FF
+Conservative (1867-1942),1930,ON,82,46,59,#9999FF
+Conservative (1867-1942),1930,PRAIRIE,54,23,22,#9999FF
+Conservative (1867-1942),1930,QC,65,30,24,#9999FF
+Conservative (1867-1942),1930,TERRITORIES,1,1,1,#9999FF
+Conservative (1867-1942),1935,ATLANTIC,26,9,1,#9999FF
+Conservative (1867-1942),1935,BC,16,4,5,#9999FF
+Conservative (1867-1942),1935,NATIONAL,26,76,39,#9999FF
+Conservative (1867-1942),1935,ON,82,31,25,#9999FF
+Conservative (1867-1942),1935,PRAIRIE,55,12,3,#9999FF
+Conservative (1867-1942),1935,QC,65,20,5,#9999FF
+Conservative (1867-1942),1940,NATIONAL,82,0,3,#9999FF
+Conservative (1867-1942),1940,ON,82,0,3,#9999FF
+Conservative Party of Canada,2004,ATLANTIC,32,10,7,#6495ED
+Conservative Party of Canada,2004,BC,36,13,22,#6495ED
+Conservative Party of Canada,2004,NATIONAL,32,97,99,#6495ED
+Conservative Party of Canada,2004,ON,106,35,24,#6495ED
+Conservative Party of Canada,2004,PRAIRIE,56,32,46,#6495ED
+Conservative Party of Canada,2004,QC,75,7,0,#6495ED
+Conservative Party of Canada,2006,ATLANTIC,32,12,9,#6495ED
+Conservative Party of Canada,2006,BC,36,14,17,#6495ED
+Conservative Party of Canada,2006,NATIONAL,32,118,124,#6495ED
+Conservative Party of Canada,2006,ON,106,39,40,#6495ED
+Conservative Party of Canada,2006,PRAIRIE,56,33,48,#6495ED
+Conservative Party of Canada,2006,QC,75,19,10,#6495ED
+Conservative Party of Canada,2006,TERRITORIES,3,1,0,#6495ED
+Conservative Party of Canada,2008,ATLANTIC,32,10,10,#6495ED
+Conservative Party of Canada,2008,BC,36,17,22,#6495ED
+Conservative Party of Canada,2008,NATIONAL,32,121,143,#6495ED
+Conservative Party of Canada,2008,ON,106,42,51,#6495ED
+Conservative Party of Canada,2008,PRAIRIE,56,34,49,#6495ED
+Conservative Party of Canada,2008,QC,75,17,10,#6495ED
+Conservative Party of Canada,2008,TERRITORIES,3,1,1,#6495ED
+Conservative Party of Canada,2011,ATLANTIC,32,12,14,#6495ED
+Conservative Party of Canada,2011,BC,36,17,21,#6495ED
+Conservative Party of Canada,2011,NATIONAL,32,130,166,#6495ED
+Conservative Party of Canada,2011,ON,106,50,73,#6495ED
+Conservative Party of Canada,2011,PRAIRIE,56,37,51,#6495ED
+Conservative Party of Canada,2011,QC,75,13,5,#6495ED
+Conservative Party of Canada,2011,TERRITORIES,3,1,2,#6495ED
+Conservative Party of Canada,2015,ATLANTIC,32,6,0,#6495ED
+Conservative Party of Canada,2015,BC,42,13,10,#6495ED
+Conservative Party of Canada,2015,NATIONAL,32,111,99,#6495ED
+Conservative Party of Canada,2015,ON,121,44,33,#6495ED
+Conservative Party of Canada,2015,PRAIRIE,62,35,44,#6495ED
+Conservative Party of Canada,2015,QC,78,13,12,#6495ED
+Conservative Party of Canada,2019,ATLANTIC,32,9,4,#6495ED
+Conservative Party of Canada,2019,BC,42,15,17,#6495ED
+Conservative Party of Canada,2019,NATIONAL,32,122,121,#6495ED
+Conservative Party of Canada,2019,ON,121,41,36,#6495ED
+Conservative Party of Canada,2019,PRAIRIE,62,43,54,#6495ED
+Conservative Party of Canada,2019,QC,78,13,10,#6495ED
+Conservative Party of Canada,2019,TERRITORIES,3,1,0,#6495ED
+Conservative Party of Canada,2021,ATLANTIC,32,10,8,#6495ED
+Conservative Party of Canada,2021,BC,42,15,13,#6495ED
+Conservative Party of Canada,2021,NATIONAL,32,119,119,#6495ED
+Conservative Party of Canada,2021,ON,121,44,37,#6495ED
+Conservative Party of Canada,2021,PRAIRIE,62,34,51,#6495ED
+Conservative Party of Canada,2021,QC,78,15,10,#6495ED
+Conservative Party of Canada,2021,TERRITORIES,3,1,0,#6495ED
+Green Party of Canada,2004,BC,36,2,0,#99C955
+Green Party of Canada,2004,NATIONAL,32,2,0,#99C955
+Green Party of Canada,2006,BC,36,2,0,#99C955
+Green Party of Canada,2006,NATIONAL,32,5,0,#99C955
+Green Party of Canada,2006,PRAIRIE,56,3,0,#99C955
+Green Party of Canada,2008,ATLANTIC,32,2,0,#99C955
+Green Party of Canada,2008,BC,36,3,0,#99C955
+Green Party of Canada,2008,NATIONAL,32,17,0,#99C955
+Green Party of Canada,2008,ON,106,8,0,#99C955
+Green Party of Canada,2008,PRAIRIE,56,4,0,#99C955
+Green Party of Canada,2011,BC,36,2,1,#99C955
+Green Party of Canada,2011,NATIONAL,32,2,1,#99C955
+Green Party of Canada,2015,BC,42,3,1,#99C955
+Green Party of Canada,2015,NATIONAL,32,3,1,#99C955
+Green Party of Canada,2019,ATLANTIC,32,4,1,#99C955
+Green Party of Canada,2019,BC,42,5,2,#99C955
+Green Party of Canada,2019,NATIONAL,32,16,3,#99C955
+Green Party of Canada,2019,ON,121,7,0,#99C955
+Green Party of Canada,2021,BC,42,2,1,#99C955
+Green Party of Canada,2021,NATIONAL,32,2,2,#99C955
+Green Party of Canada,2021,ON,121,0,1,#99C955
+Independent Co-operative Commonwealth Federation,1945,BC,16,0,1,
+Independent Co-operative Commonwealth Federation,1945,NATIONAL,16,0,1,
+Independent Conservative,1921,NATIONAL,82,0,1,
+Independent Conservative,1921,ON,82,0,1,
+Independent Conservative,1925,NATIONAL,82,0,1,
+Independent Conservative,1925,ON,82,0,1,
+Independent Conservative,1935,NATIONAL,65,1,1,
+Independent Conservative,1935,TERRITORIES,1,1,1,
+Independent Conservative,1940,NATIONAL,65,0,1,
+Independent Conservative,1940,QC,65,0,1,
+Independent Labour,1930,BC,14,1,1,
+Independent Labour,1930,NATIONAL,14,1,1,
+Independent Liberal,1925,NATIONAL,82,0,1,
+Independent Liberal,1925,QC,65,0,1,
+Independent Liberal,1926,NATIONAL,65,0,1,
+Independent Liberal,1926,QC,65,0,1,
+Independent Liberal,1935,NATIONAL,26,0,1,
+Independent Liberal,1935,QC,65,0,1,
+Independent Liberal,1940,NATIONAL,26,7,2,
+Independent Liberal,1940,QC,65,7,2,
+Independent Liberal,1945,BC,16,0,1,
+Independent Liberal,1945,NATIONAL,26,4,8,
+Independent Liberal,1945,QC,65,4,7,
+Independent Liberal,1949,NATIONAL,34,0,1,
+Independent Liberal,1949,ON,83,0,1,
+Independent Liberal,1953,NATIONAL,33,0,2,
+Independent Liberal,1953,QC,75,0,2,
+Independent Liberal,1957,NATIONAL,85,0,2,
+Independent Liberal,1957,QC,75,0,2,
+Independent Progressive,1921,NATIONAL,82,0,1,
+Independent Progressive,1921,ON,82,0,1,
+Independent Progressive Conservative,1945,NATIONAL,82,0,1,
+Independent Progressive Conservative,1945,QC,65,0,1,
+Independent Progressive Conservative,1957,NATIONAL,85,0,1,
+Independent Progressive Conservative,1957,QC,75,0,1,
+Independent Progressive Conservative,1965,NATIONAL,85,0,1,
+Independent Progressive Conservative,1965,QC,75,0,1,
+Labor-Progressive Party,1945,BC,16,1,0,
+Labor-Progressive Party,1945,NATIONAL,26,1,1,
+Labor-Progressive Party,1945,QC,65,0,1,
+Labour,1921,BC,13,1,0,
+Labour,1921,NATIONAL,31,3,3,
+Labour,1921,PRAIRIE,43,2,3,
+Labour,1925,BC,14,1,0,
+Labour,1925,NATIONAL,29,3,2,
+Labour,1925,PRAIRIE,54,2,2,
+Labour,1926,BC,14,1,0,
+Labour,1926,NATIONAL,29,1,4,
+Labour,1926,ON,82,0,1,
+Labour,1926,PRAIRIE,54,0,3,
+Labour,1930,NATIONAL,82,0,2,
+Labour,1930,PRAIRIE,54,0,2,
+Liberal Labour Party,1949,NATIONAL,83,0,1,
+Liberal Labour Party,1949,ON,83,0,1,
+Liberal Labour Party,1953,NATIONAL,85,0,1,
+Liberal Labour Party,1953,ON,85,0,1,
+Liberal Labour Party,1957,NATIONAL,85,0,1,
+Liberal Labour Party,1957,ON,85,0,1,
+Liberal Labour Party,1958,NATIONAL,85,0,1,
+Liberal Labour Party,1958,ON,85,0,1,
+Liberal Labour Party,1962,NATIONAL,85,0,1,
+Liberal Labour Party,1962,ON,85,0,1,
+Liberal Labour Party,1963,NATIONAL,85,0,1,
+Liberal Labour Party,1963,ON,85,0,1,
+Liberal Labour Party,1968,NATIONAL,88,0,1,
+Liberal Labour Party,1968,ON,88,0,1,
+Liberal Party of Canada,1921,ATLANTIC,31,17,25,#EA6D6A
+Liberal Party of Canada,1921,BC,13,4,3,#EA6D6A
+Liberal Party of Canada,1921,NATIONAL,31,104,118,#EA6D6A
+Liberal Party of Canada,1921,ON,82,26,21,#EA6D6A
+Liberal Party of Canada,1921,PRAIRIE,43,8,4,#EA6D6A
+Liberal Party of Canada,1921,QC,65,49,65,#EA6D6A
+Liberal Party of Canada,1925,ATLANTIC,29,12,6,#EA6D6A
+Liberal Party of Canada,1925,BC,14,5,3,#EA6D6A
+Liberal Party of Canada,1925,NATIONAL,29,101,100,#EA6D6A
+Liberal Party of Canada,1925,ON,82,26,12,#EA6D6A
+Liberal Party of Canada,1925,PRAIRIE,54,17,20,#EA6D6A
+Liberal Party of Canada,1925,QC,65,41,59,#EA6D6A
+Liberal Party of Canada,1926,ATLANTIC,29,13,9,#EA6D6A
+Liberal Party of Canada,1926,BC,14,5,1,#EA6D6A
+Liberal Party of Canada,1926,NATIONAL,29,109,116,#EA6D6A
+Liberal Party of Canada,1926,ON,82,30,24,#EA6D6A
+Liberal Party of Canada,1926,PRAIRIE,54,19,23,#EA6D6A
+Liberal Party of Canada,1926,QC,65,42,59,#EA6D6A
+Liberal Party of Canada,1930,ATLANTIC,29,13,6,#EA6D6A
+Liberal Party of Canada,1930,BC,14,6,5,#EA6D6A
+Liberal Party of Canada,1930,NATIONAL,29,111,89,#EA6D6A
+Liberal Party of Canada,1930,ON,82,36,22,#EA6D6A
+Liberal Party of Canada,1930,PRAIRIE,54,21,16,#EA6D6A
+Liberal Party of Canada,1930,QC,65,35,40,#EA6D6A
+Liberal Party of Canada,1935,ATLANTIC,26,14,25,#EA6D6A
+Liberal Party of Canada,1935,BC,16,5,6,#EA6D6A
+Liberal Party of Canada,1935,NATIONAL,26,114,173,#EA6D6A
+Liberal Party of Canada,1935,ON,82,36,56,#EA6D6A
+Liberal Party of Canada,1935,PRAIRIE,55,20,27,#EA6D6A
+Liberal Party of Canada,1935,QC,65,39,59,#EA6D6A
+Liberal Party of Canada,1940,ATLANTIC,26,15,19,#EA6D6A
+Liberal Party of Canada,1940,BC,16,6,10,#EA6D6A
+Liberal Party of Canada,1940,NATIONAL,26,140,179,#EA6D6A
+Liberal Party of Canada,1940,ON,82,46,56,#EA6D6A
+Liberal Party of Canada,1940,PRAIRIE,55,27,32,#EA6D6A
+Liberal Party of Canada,1940,QC,65,46,62,#EA6D6A
+Liberal Party of Canada,1945,ATLANTIC,26,13,19,#EA6D6A
+Liberal Party of Canada,1945,BC,16,5,5,#EA6D6A
+Liberal Party of Canada,1945,NATIONAL,26,104,118,#EA6D6A
+Liberal Party of Canada,1945,ON,82,35,34,#EA6D6A
+Liberal Party of Canada,1945,PRAIRIE,55,17,13,#EA6D6A
+Liberal Party of Canada,1945,QC,65,34,47,#EA6D6A
+Liberal Party of Canada,1949,ATLANTIC,34,19,26,#EA6D6A
+Liberal Party of Canada,1949,BC,18,7,11,#EA6D6A
+Liberal Party of Canada,1949,NATIONAL,34,134,191,#EA6D6A
+Liberal Party of Canada,1949,ON,83,38,55,#EA6D6A
+Liberal Party of Canada,1949,PRAIRIE,53,23,30,#EA6D6A
+Liberal Party of Canada,1949,QC,73,46,68,#EA6D6A
+Liberal Party of Canada,1949,TERRITORIES,1,1,1,#EA6D6A
+Liberal Party of Canada,1953,ATLANTIC,33,19,27,#EA6D6A
+Liberal Party of Canada,1953,BC,22,7,8,#EA6D6A
+Liberal Party of Canada,1953,NATIONAL,33,138,169,#EA6D6A
+Liberal Party of Canada,1953,ON,85,41,50,#EA6D6A
+Liberal Party of Canada,1953,PRAIRIE,48,18,16,#EA6D6A
+Liberal Party of Canada,1953,QC,75,51,66,#EA6D6A
+Liberal Party of Canada,1953,TERRITORIES,2,2,2,#EA6D6A
+Liberal Party of Canada,1957,ATLANTIC,33,16,12,#EA6D6A
+Liberal Party of Canada,1957,BC,22,5,2,#EA6D6A
+Liberal Party of Canada,1957,NATIONAL,33,117,104,#EA6D6A
+Liberal Party of Canada,1957,ON,85,32,20,#EA6D6A
+Liberal Party of Canada,1957,PRAIRIE,48,14,6,#EA6D6A
+Liberal Party of Canada,1957,QC,75,49,62,#EA6D6A
+Liberal Party of Canada,1957,TERRITORIES,2,1,2,#EA6D6A
+Liberal Party of Canada,1958,ATLANTIC,33,14,8,#EA6D6A
+Liberal Party of Canada,1958,BC,22,3,0,#EA6D6A
+Liberal Party of Canada,1958,NATIONAL,33,90,48,#EA6D6A
+Liberal Party of Canada,1958,ON,85,27,14,#EA6D6A
+Liberal Party of Canada,1958,PRAIRIE,48,9,0,#EA6D6A
+Liberal Party of Canada,1958,QC,75,36,25,#EA6D6A
+Liberal Party of Canada,1958,TERRITORIES,2,1,1,#EA6D6A
+Liberal Party of Canada,1962,ATLANTIC,33,16,14,#EA6D6A
+Liberal Party of Canada,1962,BC,22,6,4,#EA6D6A
+Liberal Party of Canada,1962,NATIONAL,33,101,99,#EA6D6A
+Liberal Party of Canada,1962,ON,85,36,43,#EA6D6A
+Liberal Party of Canada,1962,PRAIRIE,48,11,2,#EA6D6A
+Liberal Party of Canada,1962,QC,75,31,35,#EA6D6A
+Liberal Party of Canada,1962,TERRITORIES,2,1,1,#EA6D6A
+Liberal Party of Canada,1963,ATLANTIC,33,18,20,#EA6D6A
+Liberal Party of Canada,1963,BC,22,7,7,#EA6D6A
+Liberal Party of Canada,1963,NATIONAL,33,114,128,#EA6D6A
+Liberal Party of Canada,1963,ON,85,40,51,#EA6D6A
+Liberal Party of Canada,1963,PRAIRIE,48,13,3,#EA6D6A
+Liberal Party of Canada,1963,QC,75,35,47,#EA6D6A
+Liberal Party of Canada,1963,TERRITORIES,2,1,0,#EA6D6A
+Liberal Party of Canada,1965,ATLANTIC,33,16,15,#EA6D6A
+Liberal Party of Canada,1965,BC,22,7,7,#EA6D6A
+Liberal Party of Canada,1965,NATIONAL,33,110,131,#EA6D6A
+Liberal Party of Canada,1965,ON,85,38,51,#EA6D6A
+Liberal Party of Canada,1965,PRAIRIE,48,12,1,#EA6D6A
+Liberal Party of Canada,1965,QC,75,36,56,#EA6D6A
+Liberal Party of Canada,1965,TERRITORIES,2,1,1,#EA6D6A
+Liberal Party of Canada,1968,ATLANTIC,32,14,7,#EA6D6A
+Liberal Party of Canada,1968,BC,23,10,16,#EA6D6A
+Liberal Party of Canada,1968,NATIONAL,32,123,154,#EA6D6A
+Liberal Party of Canada,1968,ON,88,41,63,#EA6D6A
+Liberal Party of Canada,1968,PRAIRIE,45,16,11,#EA6D6A
+Liberal Party of Canada,1968,QC,74,41,56,#EA6D6A
+Liberal Party of Canada,1968,TERRITORIES,2,1,1,#EA6D6A
+Liberal Party of Canada,1972,ATLANTIC,32,13,10,#EA6D6A
+Liberal Party of Canada,1972,BC,23,7,4,#EA6D6A
+Liberal Party of Canada,1972,NATIONAL,32,105,109,#EA6D6A
+Liberal Party of Canada,1972,ON,88,34,36,#EA6D6A
+Liberal Party of Canada,1972,PRAIRIE,45,12,3,#EA6D6A
+Liberal Party of Canada,1972,QC,74,38,56,#EA6D6A
+Liberal Party of Canada,1972,TERRITORIES,2,1,0,#EA6D6A
+Liberal Party of Canada,1974,ATLANTIC,32,15,13,#EA6D6A
+Liberal Party of Canada,1974,BC,23,8,8,#EA6D6A
+Liberal Party of Canada,1974,NATIONAL,32,116,141,#EA6D6A
+Liberal Party of Canada,1974,ON,88,40,55,#EA6D6A
+Liberal Party of Canada,1974,PRAIRIE,45,12,5,#EA6D6A
+Liberal Party of Canada,1974,QC,74,41,60,#EA6D6A
+Liberal Party of Canada,1979,ATLANTIC,32,13,12,#EA6D6A
+Liberal Party of Canada,1979,BC,28,6,1,#EA6D6A
+Liberal Party of Canada,1979,NATIONAL,32,115,114,#EA6D6A
+Liberal Party of Canada,1979,ON,95,35,32,#EA6D6A
+Liberal Party of Canada,1979,PRAIRIE,49,11,2,#EA6D6A
+Liberal Party of Canada,1979,QC,75,49,67,#EA6D6A
+Liberal Party of Canada,1979,TERRITORIES,3,1,0,#EA6D6A
+Liberal Party of Canada,1980,ATLANTIC,32,15,19,#EA6D6A
+Liberal Party of Canada,1980,BC,28,6,0,#EA6D6A
+Liberal Party of Canada,1980,NATIONAL,32,128,147,#EA6D6A
+Liberal Party of Canada,1980,ON,95,40,52,#EA6D6A
+Liberal Party of Canada,1980,PRAIRIE,49,12,2,#EA6D6A
+Liberal Party of Canada,1980,QC,75,54,74,#EA6D6A
+Liberal Party of Canada,1980,TERRITORIES,3,1,0,#EA6D6A
+Liberal Party of Canada,1984,ATLANTIC,32,11,7,#EA6D6A
+Liberal Party of Canada,1984,BC,28,4,1,#EA6D6A
+Liberal Party of Canada,1984,NATIONAL,32,81,40,#EA6D6A
+Liberal Party of Canada,1984,ON,95,29,14,#EA6D6A
+Liberal Party of Canada,1984,PRAIRIE,49,8,1,#EA6D6A
+Liberal Party of Canada,1984,QC,75,28,17,#EA6D6A
+Liberal Party of Canada,1984,TERRITORIES,3,1,0,#EA6D6A
+Liberal Party of Canada,1988,ATLANTIC,32,15,20,#EA6D6A
+Liberal Party of Canada,1988,BC,32,7,1,#EA6D6A
+Liberal Party of Canada,1988,NATIONAL,32,97,83,#EA6D6A
+Liberal Party of Canada,1988,ON,99,40,43,#EA6D6A
+Liberal Party of Canada,1988,PRAIRIE,54,11,5,#EA6D6A
+Liberal Party of Canada,1988,QC,75,23,12,#EA6D6A
+Liberal Party of Canada,1988,TERRITORIES,3,1,2,#EA6D6A
+Liberal Party of Canada,1993,ATLANTIC,32,20,31,#EA6D6A
+Liberal Party of Canada,1993,BC,32,10,6,#EA6D6A
+Liberal Party of Canada,1993,NATIONAL,32,131,177,#EA6D6A
+Liberal Party of Canada,1993,ON,99,55,98,#EA6D6A
+Liberal Party of Canada,1993,PRAIRIE,54,18,21,#EA6D6A
+Liberal Party of Canada,1993,QC,75,26,19,#EA6D6A
+Liberal Party of Canada,1993,TERRITORIES,3,2,2,#EA6D6A
+Liberal Party of Canada,1997,ATLANTIC,32,11,11,#EA6D6A
+Liberal Party of Canada,1997,BC,34,10,6,#EA6D6A
+Liberal Party of Canada,1997,NATIONAL,32,119,155,#EA6D6A
+Liberal Party of Canada,1997,ON,103,52,101,#EA6D6A
+Liberal Party of Canada,1997,PRAIRIE,54,15,9,#EA6D6A
+Liberal Party of Canada,1997,QC,75,29,26,#EA6D6A
+Liberal Party of Canada,1997,TERRITORIES,3,2,2,#EA6D6A
+Liberal Party of Canada,2000,ATLANTIC,32,14,19,#EA6D6A
+Liberal Party of Canada,2000,BC,34,10,5,#EA6D6A
+Liberal Party of Canada,2000,NATIONAL,32,129,172,#EA6D6A
+Liberal Party of Canada,2000,ON,103,55,100,#EA6D6A
+Liberal Party of Canada,2000,PRAIRIE,54,13,9,#EA6D6A
+Liberal Party of Canada,2000,QC,75,35,36,#EA6D6A
+Liberal Party of Canada,2000,TERRITORIES,3,2,3,#EA6D6A
+Liberal Party of Canada,2004,ATLANTIC,32,15,22,#EA6D6A
+Liberal Party of Canada,2004,BC,36,11,8,#EA6D6A
+Liberal Party of Canada,2004,NATIONAL,32,122,135,#EA6D6A
+Liberal Party of Canada,2004,ON,106,51,75,#EA6D6A
+Liberal Party of Canada,2004,PRAIRIE,56,15,6,#EA6D6A
+Liberal Party of Canada,2004,QC,75,28,21,#EA6D6A
+Liberal Party of Canada,2004,TERRITORIES,3,2,3,#EA6D6A
+Liberal Party of Canada,2006,ATLANTIC,32,13,20,#EA6D6A
+Liberal Party of Canada,2006,BC,36,10,9,#EA6D6A
+Liberal Party of Canada,2006,NATIONAL,32,96,103,#EA6D6A
+Liberal Party of Canada,2006,ON,106,45,54,#EA6D6A
+Liberal Party of Canada,2006,PRAIRIE,56,11,5,#EA6D6A
+Liberal Party of Canada,2006,QC,75,16,13,#EA6D6A
+Liberal Party of Canada,2006,TERRITORIES,3,1,2,#EA6D6A
+Liberal Party of Canada,2008,ATLANTIC,32,12,17,#EA6D6A
+Liberal Party of Canada,2008,BC,36,7,5,#EA6D6A
+Liberal Party of Canada,2008,NATIONAL,32,84,77,#EA6D6A
+Liberal Party of Canada,2008,ON,106,37,38,#EA6D6A
+Liberal Party of Canada,2008,PRAIRIE,56,8,2,#EA6D6A
+Liberal Party of Canada,2008,QC,75,19,14,#EA6D6A
+Liberal Party of Canada,2008,TERRITORIES,3,1,1,#EA6D6A
+Liberal Party of Canada,2011,ATLANTIC,32,10,12,#EA6D6A
+Liberal Party of Canada,2011,BC,36,5,2,#EA6D6A
+Liberal Party of Canada,2011,NATIONAL,32,61,34,#EA6D6A
+Liberal Party of Canada,2011,ON,106,28,11,#EA6D6A
+Liberal Party of Canada,2011,PRAIRIE,56,6,2,#EA6D6A
+Liberal Party of Canada,2011,QC,75,11,7,#EA6D6A
+Liberal Party of Canada,2011,TERRITORIES,3,1,0,#EA6D6A
+Liberal Party of Canada,2015,ATLANTIC,32,20,32,#EA6D6A
+Liberal Party of Canada,2015,BC,42,15,17,#EA6D6A
+Liberal Party of Canada,2015,NATIONAL,32,140,184,#EA6D6A
+Liberal Party of Canada,2015,ON,121,56,80,#EA6D6A
+Liberal Party of Canada,2015,PRAIRIE,62,18,12,#EA6D6A
+Liberal Party of Canada,2015,QC,78,29,40,#EA6D6A
+Liberal Party of Canada,2015,TERRITORIES,3,2,3,#EA6D6A
+Liberal Party of Canada,2019,ATLANTIC,32,14,26,#EA6D6A
+Liberal Party of Canada,2019,BC,42,11,11,#EA6D6A
+Liberal Party of Canada,2019,NATIONAL,32,117,157,#EA6D6A
+Liberal Party of Canada,2019,ON,121,52,79,#EA6D6A
+Liberal Party of Canada,2019,PRAIRIE,62,10,4,#EA6D6A
+Liberal Party of Canada,2019,QC,78,29,35,#EA6D6A
+Liberal Party of Canada,2019,TERRITORIES,3,1,2,#EA6D6A
+Liberal Party of Canada,2021,ATLANTIC,32,15,24,#EA6D6A
+Liberal Party of Canada,2021,BC,42,12,15,#EA6D6A
+Liberal Party of Canada,2021,NATIONAL,32,116,159,#EA6D6A
+Liberal Party of Canada,2021,ON,121,49,77,#EA6D6A
+Liberal Party of Canada,2021,PRAIRIE,62,11,6,#EA6D6A
+Liberal Party of Canada,2021,QC,78,28,35,#EA6D6A
+Liberal Party of Canada,2021,TERRITORIES,3,1,2,#EA6D6A
+Liberal Progressive,1926,NATIONAL,82,4,8,
+Liberal Progressive,1926,PRAIRIE,54,4,8,
+Liberal Progressive,1930,NATIONAL,54,3,3,
+Liberal Progressive,1930,PRAIRIE,54,3,3,
+Liberal Progressive,1935,NATIONAL,55,0,4,
+Liberal Progressive,1935,PRAIRIE,55,0,4,
+Liberal Progressive,1940,NATIONAL,82,0,3,
+Liberal Progressive,1940,ON,82,0,1,
+Liberal Progressive,1940,PRAIRIE,55,0,2,
+Liberal Progressive,1945,NATIONAL,55,0,1,
+Liberal Progressive,1945,PRAIRIE,55,0,1,
+Liberal Progressive,1949,NATIONAL,53,0,1,
+Liberal Progressive,1949,PRAIRIE,53,0,1,
+Liberal Progressive,1953,NATIONAL,48,0,1,
+Liberal Progressive,1953,PRAIRIE,48,0,1,
+National Government,1940,ATLANTIC,26,11,6,#9999FF
+National Government,1940,BC,16,5,4,#9999FF
+National Government,1940,NATIONAL,26,76,36,#9999FF
+National Government,1940,ON,82,36,22,#9999FF
+National Government,1940,PRAIRIE,55,11,3,#9999FF
+National Government,1940,QC,65,12,0,#9999FF
+National Government,1940,TERRITORIES,1,1,1,#9999FF
+New Democracy,1940,NATIONAL,16,4,3,#90EE90
+New Democracy,1940,PRAIRIE,55,4,3,#90EE90
+New Democratic Party,1962,ATLANTIC,33,2,1,#F4A460
+New Democratic Party,1962,BC,22,7,10,#F4A460
+New Democratic Party,1962,NATIONAL,33,32,19,#F4A460
+New Democratic Party,1962,ON,85,15,6,#F4A460
+New Democratic Party,1962,PRAIRIE,48,8,2,#F4A460
+New Democratic Party,1963,BC,22,7,9,#F4A460
+New Democratic Party,1963,NATIONAL,33,32,17,#F4A460
+New Democratic Party,1963,ON,85,14,6,#F4A460
+New Democratic Party,1963,PRAIRIE,48,6,2,#F4A460
+New Democratic Party,1963,QC,75,5,0,#F4A460
+New Democratic Party,1965,ATLANTIC,33,2,0,#F4A460
+New Democratic Party,1965,BC,22,7,9,#F4A460
+New Democratic Party,1965,NATIONAL,33,45,21,#F4A460
+New Democratic Party,1965,ON,85,18,9,#F4A460
+New Democratic Party,1965,PRAIRIE,48,9,3,#F4A460
+New Democratic Party,1965,QC,75,9,0,#F4A460
+New Democratic Party,1968,ATLANTIC,32,1,0,#F4A460
+New Democratic Party,1968,BC,23,8,7,#F4A460
+New Democratic Party,1968,NATIONAL,32,42,22,#F4A460
+New Democratic Party,1968,ON,88,18,6,#F4A460
+New Democratic Party,1968,PRAIRIE,45,10,9,#F4A460
+New Democratic Party,1968,QC,74,5,0,#F4A460
+New Democratic Party,1972,ATLANTIC,32,2,0,#F4A460
+New Democratic Party,1972,BC,23,8,11,#F4A460
+New Democratic Party,1972,NATIONAL,32,45,31,#F4A460
+New Democratic Party,1972,ON,88,19,11,#F4A460
+New Democratic Party,1972,PRAIRIE,45,11,8,#F4A460
+New Democratic Party,1972,QC,74,5,0,#F4A460
+New Democratic Party,1972,TERRITORIES,2,0,1,#F4A460
+New Democratic Party,1974,ATLANTIC,32,3,1,#F4A460
+New Democratic Party,1974,BC,23,5,2,#F4A460
+New Democratic Party,1974,NATIONAL,32,40,16,#F4A460
+New Democratic Party,1974,ON,88,17,8,#F4A460
+New Democratic Party,1974,PRAIRIE,45,9,4,#F4A460
+New Democratic Party,1974,QC,74,5,0,#F4A460
+New Democratic Party,1974,TERRITORIES,2,1,1,#F4A460
+New Democratic Party,1979,ATLANTIC,32,6,2,#F4A460
+New Democratic Party,1979,BC,28,9,8,#F4A460
+New Democratic Party,1979,NATIONAL,32,51,26,#F4A460
+New Democratic Party,1979,ON,95,20,6,#F4A460
+New Democratic Party,1979,PRAIRIE,49,11,9,#F4A460
+New Democratic Party,1979,QC,75,4,0,#F4A460
+New Democratic Party,1979,TERRITORIES,3,1,1,#F4A460
+New Democratic Party,1980,ATLANTIC,32,5,0,#F4A460
+New Democratic Party,1980,BC,28,10,12,#F4A460
+New Democratic Party,1980,NATIONAL,32,56,32,#F4A460
+New Democratic Party,1980,ON,95,21,5,#F4A460
+New Democratic Party,1980,PRAIRIE,49,12,14,#F4A460
+New Democratic Party,1980,QC,75,7,0,#F4A460
+New Democratic Party,1980,TERRITORIES,3,1,1,#F4A460
+New Democratic Party,1984,ATLANTIC,32,4,0,#F4A460
+New Democratic Party,1984,BC,28,10,8,#F4A460
+New Democratic Party,1984,NATIONAL,32,54,30,#F4A460
+New Democratic Party,1984,ON,95,20,13,#F4A460
+New Democratic Party,1984,PRAIRIE,49,12,9,#F4A460
+New Democratic Party,1984,QC,75,7,0,#F4A460
+New Democratic Party,1984,TERRITORIES,3,1,0,#F4A460
+New Democratic Party,1988,ATLANTIC,32,3,0,#F4A460
+New Democratic Party,1988,BC,32,13,19,#F4A460
+New Democratic Party,1988,NATIONAL,32,61,43,#F4A460
+New Democratic Party,1988,ON,99,20,10,#F4A460
+New Democratic Party,1988,PRAIRIE,54,13,13,#F4A460
+New Democratic Party,1988,QC,75,11,0,#F4A460
+New Democratic Party,1988,TERRITORIES,3,1,1,#F4A460
+New Democratic Party,1993,ATLANTIC,32,1,0,#F4A460
+New Democratic Party,1993,BC,32,5,2,#F4A460
+New Democratic Party,1993,NATIONAL,32,20,9,#F4A460
+New Democratic Party,1993,ON,99,6,0,#F4A460
+New Democratic Party,1993,PRAIRIE,54,7,6,#F4A460
+New Democratic Party,1993,TERRITORIES,3,1,1,#F4A460
+New Democratic Party,1997,ATLANTIC,32,7,8,#F4A460
+New Democratic Party,1997,BC,34,6,3,#F4A460
+New Democratic Party,1997,NATIONAL,32,33,21,#F4A460
+New Democratic Party,1997,ON,103,11,0,#F4A460
+New Democratic Party,1997,PRAIRIE,54,8,9,#F4A460
+New Democratic Party,1997,TERRITORIES,3,1,1,#F4A460
+New Democratic Party,2000,ATLANTIC,32,5,4,#F4A460
+New Democratic Party,2000,BC,34,4,2,#F4A460
+New Democratic Party,2000,NATIONAL,32,25,13,#F4A460
+New Democratic Party,2000,ON,103,8,1,#F4A460
+New Democratic Party,2000,PRAIRIE,54,7,6,#F4A460
+New Democratic Party,2000,TERRITORIES,3,1,0,#F4A460
+New Democratic Party,2004,ATLANTIC,32,7,3,#F4A460
+New Democratic Party,2004,BC,36,10,5,#F4A460
+New Democratic Party,2004,NATIONAL,32,47,19,#F4A460
+New Democratic Party,2004,ON,106,20,7,#F4A460
+New Democratic Party,2004,PRAIRIE,56,9,4,#F4A460
+New Democratic Party,2004,TERRITORIES,3,1,0,#F4A460
+New Democratic Party,2006,ATLANTIC,32,7,3,#F4A460
+New Democratic Party,2006,BC,36,10,10,#F4A460
+New Democratic Party,2006,NATIONAL,32,55,29,#F4A460
+New Democratic Party,2006,ON,106,22,12,#F4A460
+New Democratic Party,2006,PRAIRIE,56,9,3,#F4A460
+New Democratic Party,2006,QC,75,6,0,#F4A460
+New Democratic Party,2006,TERRITORIES,3,1,1,#F4A460
+New Democratic Party,2008,ATLANTIC,32,8,4,#F4A460
+New Democratic Party,2008,BC,36,9,9,#F4A460
+New Democratic Party,2008,NATIONAL,32,56,37,#F4A460
+New Democratic Party,2008,ON,106,19,17,#F4A460
+New Democratic Party,2008,PRAIRIE,56,10,5,#F4A460
+New Democratic Party,2008,QC,75,9,1,#F4A460
+New Democratic Party,2008,TERRITORIES,3,1,1,#F4A460
+New Democratic Party,2011,ATLANTIC,32,10,6,#F4A460
+New Democratic Party,2011,BC,36,12,12,#F4A460
+New Democratic Party,2011,NATIONAL,32,97,103,#F4A460
+New Democratic Party,2011,ON,106,28,22,#F4A460
+New Democratic Party,2011,PRAIRIE,56,13,3,#F4A460
+New Democratic Party,2011,QC,75,33,59,#F4A460
+New Democratic Party,2011,TERRITORIES,3,1,1,#F4A460
+New Democratic Party,2015,ATLANTIC,32,6,0,#F4A460
+New Democratic Party,2015,BC,42,11,14,#F4A460
+New Democratic Party,2015,NATIONAL,32,68,44,#F4A460
+New Democratic Party,2015,ON,121,21,8,#F4A460
+New Democratic Party,2015,PRAIRIE,62,9,6,#F4A460
+New Democratic Party,2015,QC,78,20,16,#F4A460
+New Democratic Party,2015,TERRITORIES,3,1,0,#F4A460
+New Democratic Party,2019,ATLANTIC,32,5,1,#F4A460
+New Democratic Party,2019,BC,42,11,11,#F4A460
+New Democratic Party,2019,NATIONAL,32,56,24,#F4A460
+New Democratic Party,2019,ON,121,21,6,#F4A460
+New Democratic Party,2019,PRAIRIE,62,9,4,#F4A460
+New Democratic Party,2019,QC,78,9,1,#F4A460
+New Democratic Party,2019,TERRITORIES,3,1,1,#F4A460
+New Democratic Party,2021,ATLANTIC,32,5,0,#F4A460
+New Democratic Party,2021,BC,42,13,13,#F4A460
+New Democratic Party,2021,NATIONAL,32,62,25,#F4A460
+New Democratic Party,2021,ON,121,22,5,#F4A460
+New Democratic Party,2021,PRAIRIE,62,13,5,#F4A460
+New Democratic Party,2021,QC,78,8,1,#F4A460
+New Democratic Party,2021,TERRITORIES,3,1,1,#F4A460
+No affiliation to a recognised party,1921,NATIONAL,31,4,2,
+No affiliation to a recognised party,1921,ON,82,0,2,
+No affiliation to a recognised party,1921,QC,65,4,0,
+No affiliation to a recognised party,1925,BC,14,0,1,
+No affiliation to a recognised party,1925,NATIONAL,29,0,2,
+No affiliation to a recognised party,1925,QC,65,0,1,
+No affiliation to a recognised party,1926,BC,14,0,1,
+No affiliation to a recognised party,1926,NATIONAL,14,0,2,
+No affiliation to a recognised party,1926,QC,65,0,1,
+No affiliation to a recognised party,1930,BC,14,0,1,
+No affiliation to a recognised party,1930,NATIONAL,14,0,2,
+No affiliation to a recognised party,1930,QC,65,0,1,
+No affiliation to a recognised party,1935,BC,16,0,1,
+No affiliation to a recognised party,1935,NATIONAL,26,0,1,
+No affiliation to a recognised party,1940,BC,16,0,1,
+No affiliation to a recognised party,1940,NATIONAL,26,0,1,
+No affiliation to a recognised party,1945,NATIONAL,26,12,6,
+No affiliation to a recognised party,1945,QC,65,12,6,
+No affiliation to a recognised party,1949,BC,18,0,1,
+No affiliation to a recognised party,1949,NATIONAL,34,4,4,
+No affiliation to a recognised party,1949,QC,73,4,3,
+No affiliation to a recognised party,1953,NATIONAL,33,0,3,
+No affiliation to a recognised party,1953,QC,75,0,3,
+No affiliation to a recognised party,1957,NATIONAL,33,0,2,
+No affiliation to a recognised party,1957,QC,75,0,2,
+No affiliation to a recognised party,1965,NATIONAL,33,0,1,
+No affiliation to a recognised party,1965,QC,75,0,1,
+No affiliation to a recognised party,1968,NATIONAL,32,0,1,
+No affiliation to a recognised party,1968,ON,88,0,1,
+No affiliation to a recognised party,1972,NATIONAL,32,0,2,
+No affiliation to a recognised party,1972,ON,88,0,1,
+No affiliation to a recognised party,1972,QC,74,0,1,
+No affiliation to a recognised party,1974,ATLANTIC,32,0,1,
+No affiliation to a recognised party,1974,NATIONAL,32,0,1,
+No affiliation to a recognised party,1984,NATIONAL,32,0,1,
+No affiliation to a recognised party,1984,ON,95,0,1,
+No affiliation to a recognised party,1993,NATIONAL,32,0,1,
+No affiliation to a recognised party,1993,QC,75,0,1,
+No affiliation to a recognised party,1997,NATIONAL,32,0,1,
+No affiliation to a recognised party,1997,ON,103,0,1,
+No affiliation to a recognised party,2004,BC,36,0,1,
+No affiliation to a recognised party,2004,NATIONAL,32,0,1,
+No affiliation to a recognised party,2006,NATIONAL,32,0,1,
+No affiliation to a recognised party,2006,QC,75,0,1,
+No affiliation to a recognised party,2008,ATLANTIC,32,0,1,
+No affiliation to a recognised party,2008,NATIONAL,32,0,2,
+No affiliation to a recognised party,2008,QC,75,0,1,
+No affiliation to a recognised party,2019,BC,42,0,1,
+No affiliation to a recognised party,2019,NATIONAL,32,0,1,
+No affiliation to a recognised party,2021,NATIONAL,32,0,1,
+No affiliation to a recognised party,2021,ON,121,0,1,
+People's Party of Canada,2021,ATLANTIC,32,2,0,#6f5d9a
+People's Party of Canada,2021,NATIONAL,32,12,0,#6f5d9a
+People's Party of Canada,2021,ON,121,6,0,#6f5d9a
+People's Party of Canada,2021,PRAIRIE,62,4,0,#6f5d9a
+Progressive,1921,ATLANTIC,31,3,1,#66CC00
+Progressive,1921,BC,13,1,3,#66CC00
+Progressive,1921,NATIONAL,31,50,58,#66CC00
+Progressive,1921,ON,82,22,20,#66CC00
+Progressive,1921,PRAIRIE,43,24,34,#66CC00
+Progressive,1925,NATIONAL,14,23,22,#66CC00
+Progressive,1925,ON,82,7,2,#66CC00
+Progressive,1925,PRAIRIE,54,16,20,#66CC00
+Progressive,1926,NATIONAL,82,10,11,#66CC00
+Progressive,1926,ON,82,4,3,#66CC00
+Progressive,1926,PRAIRIE,54,6,8,#66CC00
+Progressive,1930,NATIONAL,82,3,3,#66CC00
+Progressive,1930,ON,82,0,1,#66CC00
+Progressive,1930,PRAIRIE,54,3,2,#66CC00
+Progressive Conservative Party,1945,ATLANTIC,26,10,6,#9999FF
+Progressive Conservative Party,1945,BC,16,5,5,#9999FF
+Progressive Conservative Party,1945,NATIONAL,26,70,66,#9999FF
+Progressive Conservative Party,1945,ON,82,35,48,#9999FF
+Progressive Conservative Party,1945,PRAIRIE,55,12,5,#9999FF
+Progressive Conservative Party,1945,QC,65,7,1,#9999FF
+Progressive Conservative Party,1945,TERRITORIES,1,1,1,#9999FF
+Progressive Conservative Party,1949,ATLANTIC,34,13,7,#9999FF
+Progressive Conservative Party,1949,BC,18,5,3,#9999FF
+Progressive Conservative Party,1949,NATIONAL,34,78,41,#9999FF
+Progressive Conservative Party,1949,ON,83,32,25,#9999FF
+Progressive Conservative Party,1949,PRAIRIE,53,9,4,#9999FF
+Progressive Conservative Party,1949,QC,73,19,2,#9999FF
+Progressive Conservative Party,1953,ATLANTIC,33,14,5,#9999FF
+Progressive Conservative Party,1953,BC,22,3,3,#9999FF
+Progressive Conservative Party,1953,NATIONAL,33,84,51,#9999FF
+Progressive Conservative Party,1953,ON,85,35,33,#9999FF
+Progressive Conservative Party,1953,PRAIRIE,48,8,6,#9999FF
+Progressive Conservative Party,1953,QC,75,24,4,#9999FF
+Progressive Conservative Party,1957,ATLANTIC,33,17,21,#9999FF
+Progressive Conservative Party,1957,BC,22,7,7,#9999FF
+Progressive Conservative Party,1957,NATIONAL,33,108,111,#9999FF
+Progressive Conservative Party,1957,ON,85,43,61,#9999FF
+Progressive Conservative Party,1957,PRAIRIE,48,14,14,#9999FF
+Progressive Conservative Party,1957,QC,75,26,8,#9999FF
+Progressive Conservative Party,1957,TERRITORIES,2,1,0,#9999FF
+Progressive Conservative Party,1958,ATLANTIC,33,19,25,#9999FF
+Progressive Conservative Party,1958,BC,22,12,18,#9999FF
+Progressive Conservative Party,1958,NATIONAL,33,147,208,#9999FF
+Progressive Conservative Party,1958,ON,85,49,67,#9999FF
+Progressive Conservative Party,1958,PRAIRIE,48,27,47,#9999FF
+Progressive Conservative Party,1958,QC,75,39,50,#9999FF
+Progressive Conservative Party,1958,TERRITORIES,2,1,1,#9999FF
+Progressive Conservative Party,1962,ATLANTIC,33,15,18,#9999FF
+Progressive Conservative Party,1962,BC,22,6,6,#9999FF
+Progressive Conservative Party,1962,NATIONAL,33,101,116,#9999FF
+Progressive Conservative Party,1962,ON,85,34,35,#9999FF
+Progressive Conservative Party,1962,PRAIRIE,48,22,42,#9999FF
+Progressive Conservative Party,1962,QC,75,23,14,#9999FF
+Progressive Conservative Party,1962,TERRITORIES,2,1,1,#9999FF
+Progressive Conservative Party,1963,ATLANTIC,33,15,13,#9999FF
+Progressive Conservative Party,1963,BC,22,5,4,#9999FF
+Progressive Conservative Party,1963,NATIONAL,33,90,95,#9999FF
+Progressive Conservative Party,1963,ON,85,31,27,#9999FF
+Progressive Conservative Party,1963,PRAIRIE,48,23,41,#9999FF
+Progressive Conservative Party,1963,QC,75,15,8,#9999FF
+Progressive Conservative Party,1963,TERRITORIES,2,1,2,#9999FF
+Progressive Conservative Party,1965,ATLANTIC,33,15,18,#9999FF
+Progressive Conservative Party,1965,BC,22,4,3,#9999FF
+Progressive Conservative Party,1965,NATIONAL,33,87,97,#9999FF
+Progressive Conservative Party,1965,ON,85,29,25,#9999FF
+Progressive Conservative Party,1965,PRAIRIE,48,22,42,#9999FF
+Progressive Conservative Party,1965,QC,75,16,8,#9999FF
+Progressive Conservative Party,1965,TERRITORIES,2,1,1,#9999FF
+Progressive Conservative Party,1968,ATLANTIC,32,17,25,#9999FF
+Progressive Conservative Party,1968,BC,23,4,0,#9999FF
+Progressive Conservative Party,1968,NATIONAL,32,86,72,#9999FF
+Progressive Conservative Party,1968,ON,88,29,17,#9999FF
+Progressive Conservative Party,1968,PRAIRIE,45,19,25,#9999FF
+Progressive Conservative Party,1968,QC,74,16,4,#9999FF
+Progressive Conservative Party,1968,TERRITORIES,2,1,1,#9999FF
+Progressive Conservative Party,1972,ATLANTIC,32,17,22,#9999FF
+Progressive Conservative Party,1972,BC,23,8,8,#9999FF
+Progressive Conservative Party,1972,NATIONAL,32,96,107,#9999FF
+Progressive Conservative Party,1972,ON,88,35,40,#9999FF
+Progressive Conservative Party,1972,PRAIRIE,45,22,34,#9999FF
+Progressive Conservative Party,1972,QC,74,13,2,#9999FF
+Progressive Conservative Party,1972,TERRITORIES,2,1,1,#9999FF
+Progressive Conservative Party,1974,ATLANTIC,32,14,17,#9999FF
+Progressive Conservative Party,1974,BC,23,10,13,#9999FF
+Progressive Conservative Party,1974,NATIONAL,32,96,95,#9999FF
+Progressive Conservative Party,1974,ON,88,31,25,#9999FF
+Progressive Conservative Party,1974,PRAIRIE,45,24,36,#9999FF
+Progressive Conservative Party,1974,QC,74,16,3,#9999FF
+Progressive Conservative Party,1974,TERRITORIES,2,1,1,#9999FF
+Progressive Conservative Party,1979,ATLANTIC,32,13,18,#9999FF
+Progressive Conservative Party,1979,BC,28,13,19,#9999FF
+Progressive Conservative Party,1979,NATIONAL,32,104,136,#9999FF
+Progressive Conservative Party,1979,ON,95,40,57,#9999FF
+Progressive Conservative Party,1979,PRAIRIE,49,27,38,#9999FF
+Progressive Conservative Party,1979,QC,75,10,2,#9999FF
+Progressive Conservative Party,1979,TERRITORIES,3,1,2,#9999FF
+Progressive Conservative Party,1980,ATLANTIC,32,12,13,#9999FF
+Progressive Conservative Party,1980,BC,28,12,16,#9999FF
+Progressive Conservative Party,1980,NATIONAL,32,94,103,#9999FF
+Progressive Conservative Party,1980,ON,95,34,38,#9999FF
+Progressive Conservative Party,1980,PRAIRIE,49,25,33,#9999FF
+Progressive Conservative Party,1980,QC,75,10,1,#9999FF
+Progressive Conservative Party,1980,TERRITORIES,3,1,2,#9999FF
+Progressive Conservative Party,1984,ATLANTIC,32,17,25,#9999FF
+Progressive Conservative Party,1984,BC,28,14,19,#9999FF
+Progressive Conservative Party,1984,NATIONAL,32,147,211,#9999FF
+Progressive Conservative Party,1984,ON,95,46,67,#9999FF
+Progressive Conservative Party,1984,PRAIRIE,49,29,39,#9999FF
+Progressive Conservative Party,1984,QC,75,40,58,#9999FF
+Progressive Conservative Party,1984,TERRITORIES,3,1,3,#9999FF
+Progressive Conservative Party,1988,ATLANTIC,32,14,12,#9999FF
+Progressive Conservative Party,1988,BC,32,12,12,#9999FF
+Progressive Conservative Party,1988,NATIONAL,32,132,169,#9999FF
+Progressive Conservative Party,1988,ON,99,39,46,#9999FF
+Progressive Conservative Party,1988,PRAIRIE,54,25,36,#9999FF
+Progressive Conservative Party,1988,QC,75,41,63,#9999FF
+Progressive Conservative Party,1988,TERRITORIES,3,1,0,#9999FF
+Progressive Conservative Party,1993,ATLANTIC,32,9,1,#9999FF
+Progressive Conservative Party,1993,BC,32,4,0,#9999FF
+Progressive Conservative Party,1993,NATIONAL,32,48,2,#9999FF
+Progressive Conservative Party,1993,ON,99,18,0,#9999FF
+Progressive Conservative Party,1993,PRAIRIE,54,7,0,#9999FF
+Progressive Conservative Party,1993,QC,75,10,1,#9999FF
+Progressive Conservative Party,1997,ATLANTIC,32,11,13,#9999FF
+Progressive Conservative Party,1997,BC,34,2,0,#9999FF
+Progressive Conservative Party,1997,NATIONAL,32,57,20,#9999FF
+Progressive Conservative Party,1997,ON,103,20,1,#9999FF
+Progressive Conservative Party,1997,PRAIRIE,54,7,1,#9999FF
+Progressive Conservative Party,1997,QC,75,17,5,#9999FF
+Progressive Conservative Party,2000,ATLANTIC,32,10,9,#9999FF
+Progressive Conservative Party,2000,BC,34,2,0,#9999FF
+Progressive Conservative Party,2000,NATIONAL,32,37,12,#9999FF
+Progressive Conservative Party,2000,ON,103,15,0,#9999FF
+Progressive Conservative Party,2000,PRAIRIE,54,6,2,#9999FF
+Progressive Conservative Party,2000,QC,75,4,1,#9999FF
+Ralliement des créditistes,1965,NATIONAL,33,14,9,
+Ralliement des créditistes,1965,QC,75,14,9,
+Ralliement des créditistes,1968,NATIONAL,32,12,14,
+Ralliement des créditistes,1968,QC,74,12,14,
+Reconstruction Party,1935,ATLANTIC,26,3,0,
+Reconstruction Party,1935,BC,16,1,1,
+Reconstruction Party,1935,NATIONAL,26,19,1,
+Reconstruction Party,1935,ON,82,9,0,
+Reconstruction Party,1935,QC,65,6,0,
+Reform Party of Canada,1988,NATIONAL,32,5,0,#3CB371
+Reform Party of Canada,1988,PRAIRIE,54,5,0,#3CB371
+Reform Party of Canada,1993,ATLANTIC,32,2,0,#3CB371
+Reform Party of Canada,1993,BC,32,13,24,#3CB371
+Reform Party of Canada,1993,NATIONAL,32,57,52,#3CB371
+Reform Party of Canada,1993,ON,99,20,1,#3CB371
+Reform Party of Canada,1993,PRAIRIE,54,22,27,#3CB371
+Reform Party of Canada,1997,ATLANTIC,32,3,0,#3CB371
+Reform Party of Canada,1997,BC,34,16,25,#3CB371
+Reform Party of Canada,1997,NATIONAL,32,63,60,#3CB371
+Reform Party of Canada,1997,ON,103,20,0,#3CB371
+Reform Party of Canada,1997,PRAIRIE,54,24,35,#3CB371
+Social Credit Party of Canada,1935,NATIONAL,16,12,17,#90EE90
+Social Credit Party of Canada,1935,PRAIRIE,55,12,17,#90EE90
+Social Credit Party of Canada,1940,NATIONAL,55,0,7,#90EE90
+Social Credit Party of Canada,1940,PRAIRIE,55,0,7,#90EE90
+Social Credit Party of Canada,1945,NATIONAL,16,7,13,#90EE90
+Social Credit Party of Canada,1945,PRAIRIE,55,7,13,#90EE90
+Social Credit Party of Canada,1949,NATIONAL,18,7,10,#90EE90
+Social Credit Party of Canada,1949,PRAIRIE,53,7,10,#90EE90
+Social Credit Party of Canada,1953,BC,22,6,4,#90EE90
+Social Credit Party of Canada,1953,NATIONAL,33,15,15,#90EE90
+Social Credit Party of Canada,1953,PRAIRIE,48,9,11,#90EE90
+Social Credit Party of Canada,1957,BC,22,5,6,#90EE90
+Social Credit Party of Canada,1957,NATIONAL,33,15,19,#90EE90
+Social Credit Party of Canada,1957,PRAIRIE,48,10,13,#90EE90
+Social Credit Party of Canada,1958,BC,22,2,0,#90EE90
+Social Credit Party of Canada,1958,NATIONAL,33,6,0,#90EE90
+Social Credit Party of Canada,1958,PRAIRIE,48,4,0,#90EE90
+Social Credit Party of Canada,1962,BC,22,3,2,#90EE90
+Social Credit Party of Canada,1962,NATIONAL,33,31,30,#90EE90
+Social Credit Party of Canada,1962,PRAIRIE,48,7,2,#90EE90
+Social Credit Party of Canada,1962,QC,75,21,26,#90EE90
+Social Credit Party of Canada,1963,BC,22,3,2,#90EE90
+Social Credit Party of Canada,1963,NATIONAL,33,29,24,#90EE90
+Social Credit Party of Canada,1963,PRAIRIE,48,6,2,#90EE90
+Social Credit Party of Canada,1963,QC,75,20,20,#90EE90
+Social Credit Party of Canada,1965,BC,22,4,3,#90EE90
+Social Credit Party of Canada,1965,NATIONAL,33,9,5,#90EE90
+Social Credit Party of Canada,1965,PRAIRIE,48,5,2,#90EE90
+Social Credit Party of Canada,1968,BC,23,1,0,#90EE90
+Social Credit Party of Canada,1968,NATIONAL,32,1,0,#90EE90
+Social Credit Party of Canada,1972,NATIONAL,32,18,15,#90EE90
+Social Credit Party of Canada,1972,QC,74,18,15,#90EE90
+Social Credit Party of Canada,1974,NATIONAL,32,12,11,#90EE90
+Social Credit Party of Canada,1974,QC,74,12,11,#90EE90
+Social Credit Party of Canada,1979,NATIONAL,28,12,6,#90EE90
+Social Credit Party of Canada,1979,QC,75,12,6,#90EE90
+Social Credit Party of Canada,1980,NATIONAL,28,4,0,#90EE90
+Social Credit Party of Canada,1980,QC,75,4,0,#90EE90
+Union of Electors,1949,NATIONAL,34,4,0,
+Union of Electors,1949,QC,73,4,0,
+United Farmers of Alberta,1921,NATIONAL,43,0,2,#66CC00
+United Farmers of Alberta,1921,PRAIRIE,43,0,2,#66CC00
+United Farmers of Alberta,1925,NATIONAL,54,0,2,#66CC00
+United Farmers of Alberta,1925,PRAIRIE,54,0,2,#66CC00
+United Farmers of Alberta,1926,NATIONAL,54,6,11,#66CC00
+United Farmers of Alberta,1926,PRAIRIE,54,6,11,#66CC00
+United Farmers of Alberta,1930,NATIONAL,54,4,9,#66CC00
+United Farmers of Alberta,1930,PRAIRIE,54,4,9,#66CC00
+United Farmers of Ontario,1921,NATIONAL,82,0,1,#66CC00
+United Farmers of Ontario,1921,ON,82,0,1,#66CC00
+United Farmers of Ontario,1926,NATIONAL,82,0,1,#66CC00
+United Farmers of Ontario,1926,ON,82,0,1,#66CC00
+United Farmers of Ontario-Labour,1935,NATIONAL,82,0,1,
+United Farmers of Ontario-Labour,1935,ON,82,0,1,
+United Reform Movement,1940,NATIONAL,55,0,1,
+United Reform Movement,1940,PRAIRIE,55,0,1,
+Unity,1940,NATIONAL,55,0,1,
+Unity,1940,PRAIRIE,55,0,1,

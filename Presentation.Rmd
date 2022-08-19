@@ -1,13 +1,9 @@
 ---
-title: What Regional Proportional Representative (PR) would have looked like for Canada,
-  since 1921
-author: "Kevin H.Y. Shu"
-date: "13 May 2022"
+title: Using Shiny to Visualize Regional Proportional Representation for Canada, federally since 1921
+author: "Kevin H.Y. Shu<br/>for Data Science PHL"
+date: "18 Aug 2022"
 output: ioslides_presentation
 ---
-
-FOR README
-Go to [Parliament site](https://lop.parl.ca/sites/ParlInfo/default/en_CA/ElectionsRidings/Elections), filter "Type of Elections" to "General", in "Column Chooser", uncheck "Picture" 
 
 <!-- ```{r setup, include=FALSE} -->
 <!-- knitr::opts_chunk$set(echo = FALSE) -->
@@ -19,10 +15,77 @@ Talk title: Using Shiny to Visualize Hypothetical Regional Proportional Represen
 Short abstract: The last two Canadian federal elections have resulted in a situation where the party that wins the most seats (and forms government) but not a plurality of the popular vote. This has renewed calls for change away the First-Past-The-Post (FPTP) system. This talk aims to examine hypothetical results if FPTP were changed to two forms of Proportional Representation at the regional level.
 -->
 
+<!-- https://stackoverflow.com/questions/42690955/how-to-insert-footnotes-in-ioslides-presentations-using-rmarkdown -->
+<!-- <style> -->
+<!-- div.footnotes { -->
+<!--   position: absolute; -->
+<!--   bottom: 0; -->
+<!--   margin-bottom: 10px; -->
+<!--   width: 80%; -->
+<!--   font-size: 0.6em; -->
+<!-- } -->
+<!-- </style> -->
+
+<!-- TODO: screenshot of Shiny dashboard without map as an intermediary -->
+
+## What this presentation is not
+
+1. A crash course in precise mathematical definitions from psephology
+1. A comparison of all alternate voting systems in use...
+1. or even all variations of proportional representation (PR)
+1. A litigation of arguments for or against any particular voting system
+1. An examination at hypotheticals for any state other than Canada, or for Canada's provincial / territorial legislatures
+
+## Another way to describe FPTP: "Winner Take All (WTA)"
+
+![2020 U.S. presidential election, margin of victory by state](/HY/Projects/Elections/2020_U.S._presidential_election_margins.png){width=75%}
+
+<footnote>Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2020_U.S._presidential_election_margins.svg)</footnote>
+
+## Extreme example of FPTP
+
+![1993 federal election seat results](/HY/Projects/Elections/Federal_1993_FPTP_seats.png){width=100%}
+
+## ...continued: 1993 federal vote share
+![1993 federal election vote share](/HY/Projects/Elections/Federal_1993_vote_share.png){width=100%}
+
+## ...continued: 1993 federal discrepancy
+![Discrepancy is defined as difference between seats and vote share](/HY/Projects/Elections/Federal_1993_discrepancy.png){width=100%}
+
+## Moving on to Quebec
+
+![1980 federal election, Quebec seat results](/HY/Projects/Elections/QC_1980_FPTP_seats.png){width=100%}
+
+## ...continued: 1980 Quebec vote share
+![1980 federal election, Quebec vote share](/HY/Projects/Elections/QC_1980_vote_share.png){width=100%}
+
+## ...continued: 1980 Quebec discrepancy
+![Discrepancy is defined as difference between seats and vote share](/HY/Projects/Elections/QC_1980_discrepancy.png){width=100%}
+
+## D'Hondt method
+
+$\text{quotient} = \frac{V}{s+1}$, where:
+
+- $V$ is the total votes cast for the party in the specified political entity
+- $s$ is the total seats allocated for the party in the specified political entity. Initially set to 0 for all parties.
+
+<footnote>Gallagher, Michael (1991). ["Proportionality, disproportionality and electoral systems"](https://web.archive.org/web/20131116104818/http://www.tcd.ie/Political_Science/staff/michael_gallagher/ElectoralStudies1991.pdf) _Electoral Studies_. **10** (1): 34.</footnote>
+
+## Example calculation of the D'Hondt method:
+![2016 Scottish Parliament election, Glasgow region](/HY/Projects/Elections/Glasgow_2016_MMP.png){width=100%}
+
+## Intended final product
+![2011 federal results by province](/HY/Projects/Elections/federal_2011_all_provinces.png){width=60%}
+
+<footnote>Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Canada_2011_Federal_Election.svg)</footnote>
+
+## An attempt at historical borders...
+![Attempt to remove the NWT -- Nunavut border (1949 -- 99)](/HY/Projects/Elections/attempt_at_nunavut_nonborder.png){width=100%}
+
 ## Shortcomings of Dashboard
 
 - Party strategy will necessarily be different under any form of PR. For instance, the Alba Party only ran list (additional PR MSPs) candidates in the May 2021 Scottish Parliament election.
 - Does not consider seats at dissolution / dropping of writ; election broadcast coverage change is reported relative to that instead of the prior election
 - Does not take into account redistributions
 
-- May inaccurately account for removals of candidates by the parties after the ballot deadline, e.g. Spadina—Fort York in the 2021 snap election.
+- May inaccurately account for removals of candidates by the parties after the ballot deadline, e.g. Spadina—Fort York, Toronto in the September 2021 snap Canadian federal election.

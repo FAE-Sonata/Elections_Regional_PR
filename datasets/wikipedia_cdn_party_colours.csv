@@ -1,0 +1,57 @@
+Hexadecimal_colour,Long_name,name short,Input text,Notes
+#FFFACD,Abolitionist,Abolitionist,CA|Abolitionist,X11 colour: Lemon Chiffon
+#5F9EA0,Canadian Reform Conservative Alliance,Alliance,CA|Canadian Alliance,X11 colour: Cadet Blue
+#336033,Animal Alliance,Animal Alliance,CA|AAEVPC,
+#87CEFA,Bloc Québécois,Bloc Québécois,CA|BQ,X11 colour: Light Sky Blue
+#FF0000,Canada Party,Canada Party,CA|Canada Party,X11 colour: Red
+#DC143C,Canadian Action,Canadian Action,CA|Canadian Action,X11 colour: Crimson
+#ED2939,Canadian Nationalist,Canadian Nationalist,CA|CNP,Also accepts Canadian Nationalist and Nationalist
+#CC6699,Christian Heritage,Christian Her.,CA|Christian Heritage,
+#FFA07A,Commonwealth of Canada,Commonwealth Ca,CA|PCC,Also accepts Commonwealth of Canada. X11 colour: Light Salmon.
+#FF6347,Communist,Communist,CA|Communist,
+#66CC66,Confederation of Regions,Conf of Regions,CA|CoR,
+#6495ED,Conservative Party of Canada,Conservative,CA|Conservative,2003–present. X11 colour: Cornflower.
+#9999FF,Conservative (1867-1942),Conservative,CA|Conservative (historical),1867–1942. Same colour as PC parties
+#EEDDAA,Co-operative Commonwealth Federation,CCF,CA|CCF,
+#E9967A,First Peoples National,1st Peoples Ntl,CA|FPNP,X11 colour: Dark Salmon
+#EA6D6A,Government (Liberal–Unionist),LiberalUnionist,CA|Liberal-Unionist,
+#9999FF,Government (Unionist),Gvmt (Unionist),CA|Unionist,
+#99C955,Green Party of Canada,Green,CA|Green,
+#7CDBF7,Groupe parlementaire québécois,Groupe parl qué,CA|GPQ,
+#EA6D6A,Opposition (Laurier Liberals),Laurier Lib's,CA|Laurier Liberals,
+#EA6D6A,Liberal Party of Canada,Liberal,CA|Liberal,
+#9999FF,Liberal–Conservative,Lib-Con,CA|Liberal-Conservative,Same colour as PC parties
+#F2BA00,Libertarian,Libertarian,CA|Libertarian,
+#D2B48C,Marijuana,Marijuana,CA|Marijuana,X11 colour: Tan
+#CD5C5C,Marxist–Leninist,MarxistLeninist,CA|Marxist-Leninist,
+#48D1CC,National,National,CA|National,X11 colour: Medium Turquoise
+#DCDCDC,National,National,CA|National (1979),
+#9999FF,National Government,National Gvmt,CA|National Government,Circa 1940. Same colour as PC parties
+#E6E6FA,Natural Law,Natural Law,CA|Natural Law,X11 colour: Lavender
+#D8BFD8,neorhino.ca,neorhino.ca,CA|neorhino.ca,2006—2009
+#90EE90,New Democracy,New Democracy,CA|New Democracy,Same colour as Social Credit
+#F4A460,New Democratic Party,New Democratic,CA|NDP,X11 colour: Sandy Brown
+#87CEFA,Parti nationaliste,P. nationaliste,CA|Parti nationaliste,Same colour as BQ
+#A52A2A,Patrons of Industry,Patrons of Ind.,CA|Patrons of Industry,X11 colour: Brown
+#6f5d9a,People's Party of Canada,People's,CA|PPC,
+#FFAB00,People's Political Power,Ppls Pol. Power,CA|People's Political Power,
+#71079F,Pirate,Pirate,CA|Pirate,
+#66CC00,Progressive,Progressive,CA|Progressive,
+#6666CC,Progressive Canadian,Progressive Cdn,CA|Progressive Canadian,
+#9999FF,Progressive Conservative Party,PC,CA|PC,
+#90EE90,Ralliement créditiste,Ral. créditiste,CA|Ralliement créditiste,
+#3CB371,Reform Party of Canada,Reform,CA|Reform,X11 colour: Medium sea green
+#FFFFFF,Republican,Republican,CA|Republican (1964),
+#FFFFFF,Republican,Republican,CA|Republican (1967),
+#D8BFD8,Rhinoceros,Rhinoceros,CA|Rhinoceros,2010—present. X11 colour: Thistle
+#D8BFD8,Rhinoceros,Rhinoceros,CA|Rhinoceros (historical),1963—1993. X11 colour: Thistle
+#90EE90,Social Credit Party of Canada,Social Credit,CA|Social Credit,
+#DA7C7C,Social Democratic,Social Democrat,CA|Social Democratic,
+#FFD700,Socialist,Socialist,CA|Socialist,X11 colour: Gold
+#01af58,Strength in Democracy,Str. in Demo.,CA|FD,"Also accepts Forces et Démocratie, Strength in Democracy"
+#87CEFA,Union populaire,Union populaire,CA|Union populaire,Same colour as BQ. X11 colour: Light Sky Blue
+#DE3163,United,United,CA|United,
+#66CC00,United Farmers,United Farmers,CA|United Farmers,
+#66CC00,United Farmers of Alberta,UFA,CA|AB United Farmers,
+#66CC00,United Farmers of Ontario,UFO,CA|ON United Farmers,
+#F0E68C,Western Block,Western Block,CA|Western Block,X11 colour: Khaki.

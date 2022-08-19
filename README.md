@@ -1,0 +1,1 @@
+To download the same dataset for candidate information by riding (constituency), go to [Parliament site](https://lop.parl.ca/sites/ParlInfo/default/en_CA/ElectionsRidings/Elections), filter "Type of Elections" to "General", in "Column Chooser", uncheck "Picture"
