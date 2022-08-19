@@ -2,7 +2,7 @@ libraries_needed<-c("data.table", "openxlsx", "magrittr", "stringr",
                     "lubridate", "ggplot2")
 lapply(libraries_needed,require,character.only=TRUE)
 
-setwd("C:/HY/Projects/Elections")
+setwd("C:/HY/Projects/Elections/datasets/")
 PR_THRESHOLD_PCT<-5 / 100
 region_definitions<-fread("CDN_regional_definitions.csv")
 

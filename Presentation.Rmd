@@ -38,29 +38,29 @@ Short abstract: The last two Canadian federal elections have resulted in a situa
 
 ## Another way to describe FPTP: "Winner Take All (WTA)"
 
-![2020 U.S. presidential election, margin of victory by state](/HY/Projects/Elections/2020_U.S._presidential_election_margins.png){width=75%}
+![2020 U.S. presidential election, margin of victory by state](/HY/Projects/Elections/images/2020_U.S._presidential_election_margins.png){width=75%}
 
 <footnote>Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2020_U.S._presidential_election_margins.svg)</footnote>
 
 ## Extreme example of FPTP
 
-![1993 federal election seat results](/HY/Projects/Elections/Federal_1993_FPTP_seats.png){width=100%}
+![1993 federal election seat results](/HY/Projects/Elections/images/Federal_1993_FPTP_seats.png){width=100%}
 
 ## ...continued: 1993 federal vote share
-![1993 federal election vote share](/HY/Projects/Elections/Federal_1993_vote_share.png){width=100%}
+![1993 federal election vote share](/HY/Projects/Elections/images/Federal_1993_vote_share.png){width=100%}
 
 ## ...continued: 1993 federal discrepancy
-![Discrepancy is defined as difference between seats and vote share](/HY/Projects/Elections/Federal_1993_discrepancy.png){width=100%}
+![Discrepancy is defined as difference between seats and vote share](/HY/Projects/Elections/images/Federal_1993_discrepancy.png){width=100%}
 
 ## Moving on to Quebec
 
-![1980 federal election, Quebec seat results](/HY/Projects/Elections/QC_1980_FPTP_seats.png){width=100%}
+![1980 federal election, Quebec seat results](/HY/Projects/Elections/images/QC_1980_FPTP_seats.png){width=100%}
 
 ## ...continued: 1980 Quebec vote share
-![1980 federal election, Quebec vote share](/HY/Projects/Elections/QC_1980_vote_share.png){width=100%}
+![1980 federal election, Quebec vote share](/HY/Projects/Elections/images/QC_1980_vote_share.png){width=100%}
 
 ## ...continued: 1980 Quebec discrepancy
-![Discrepancy is defined as difference between seats and vote share](/HY/Projects/Elections/QC_1980_discrepancy.png){width=100%}
+![Discrepancy is defined as difference between seats and vote share](/HY/Projects/Elections/images/QC_1980_discrepancy.png){width=100%}
 
 ## D'Hondt method
 
@@ -72,15 +72,15 @@ $\text{quotient} = \frac{V}{s+1}$, where:
 <footnote>Gallagher, Michael (1991). ["Proportionality, disproportionality and electoral systems"](https://web.archive.org/web/20131116104818/http://www.tcd.ie/Political_Science/staff/michael_gallagher/ElectoralStudies1991.pdf) _Electoral Studies_. **10** (1): 34.</footnote>
 
 ## Example calculation of the D'Hondt method:
-![2016 Scottish Parliament election, Glasgow region](/HY/Projects/Elections/Glasgow_2016_MMP.png){width=100%}
+![2016 Scottish Parliament election, Glasgow region](/HY/Projects/Elections/images/Glasgow_2016_MMP.png){width=100%}
 
 ## Intended final product
-![2011 federal results by province](/HY/Projects/Elections/federal_2011_all_provinces.png){width=60%}
+![2011 federal results by province](/HY/Projects/Elections/images/federal_2011_all_provinces.png){width=60%}
 
 <footnote>Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Canada_2011_Federal_Election.svg)</footnote>
 
 ## An attempt at historical borders...
-![Attempt to remove the NWT -- Nunavut border (1949 -- 99)](/HY/Projects/Elections/attempt_at_nunavut_nonborder.png){width=100%}
+![Attempt to remove the NWT -- Nunavut border (1949 -- 99)](/HY/Projects/Elections/images/attempt_at_nunavut_nonborder.png){width=100%}
 
 ## Shortcomings of Dashboard
 

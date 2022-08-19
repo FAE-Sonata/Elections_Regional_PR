@@ -1,7 +1,7 @@
 libraries_needed<-c("data.table", "openxlsx", "magrittr", "stringr", "lubridate")
 lapply(libraries_needed,require,character.only=TRUE)
 # library(shiny)
-setwd("C:/HY/Projects/Elections")
+setwd("C:/HY/Projects/Elections/datasets/")
 # source("CDN_election_regional_PR.R")
 party_colours_wp<-fread("wikipedia_cdn_party_colours.csv", encoding="UTF-8")
 actual_vs_pr_results<-fread("FPTP_vs_regional_PR_all_elections.csv", encoding="UTF-8")
