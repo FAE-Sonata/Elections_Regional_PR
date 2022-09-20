@@ -198,7 +198,7 @@ fptp_results<-calc_national_totals(fptp_results)
 setkeyv(pr_by_yr, keycols); setkeyv(fptp_results, keycols)
 actual_vs_pr_results<-merge(pr_by_yr, fptp_results, no.dups = T)
 fwrite(all_elxn, "federal_elections_since_1921_cleaned.csv")
-fwrite(actual_vs_pr_results, "FPTP_vs_regional_PR_all_elections.csv")
+fwrite(actual_vs_pr_results, "../BasicBars_by_region/FPTP_vs_regional_PR_all_elections.csv")
 # fwrite()
 
 ## TODO: calculate Gallagher, aggreggate non-represented parties into OTHERS

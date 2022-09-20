@@ -6,12 +6,13 @@
 #
 #    http://shiny.rstudio.com/
 #
-libraries_needed<-c("data.table", "openxlsx", "magrittr", "stringr",
-                    "lubridate", "ggplot2", "shiny")
-lapply(libraries_needed,require,character.only=TRUE)
-# library(shiny)
-setwd("C:/HY/Projects/Elections/datasets")
+
+# explicit call to each library rather than lapply(..., require, ...) per https://community.rstudio.com/t/no-data-tables-package/126493
+library(data.table); library(magrittr); library(stringr); library(lubridate)
+library(ggplot2); library(shiny)
+
 # source("CDN_election_regional_PR.R")
+# move these files to avoid relative Linux pathing issues https://stackoverflow.com/questions/36878256/shiny-app-deployment-error-cannot-change-working-directory
 party_colours_wp<-fread("wikipedia_cdn_party_colours.csv", encoding="UTF-8")
 actual_vs_pr_results<-fread("FPTP_vs_regional_PR_all_elections.csv", encoding="UTF-8")
 mp_cols<-which(grepl("MPs", names(actual_vs_pr_results)))

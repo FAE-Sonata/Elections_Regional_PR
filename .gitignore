@@ -1,5 +1,7 @@
 geoBoundaries-CAN-ADM1-all/*
 .Rhistory
-.Rdata
+*.RData
 *.zip
 CDN_all_provinces_basic.png
+Presentation.log
+Presentation.tex

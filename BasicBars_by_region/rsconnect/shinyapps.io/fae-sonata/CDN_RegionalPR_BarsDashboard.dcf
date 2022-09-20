@@ -1,0 +1,13 @@
+name: CDN_RegionalPR_BarsDashboard
+title: CDN_RegionalPR_BarsDashboard
+username:
+account: fae-sonata
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7067689
+bundleId: 6321050
+url: https://fae-sonata.shinyapps.io/CDN_RegionalPR_BarsDashboard/
+when: 1663699507.76484
+lastSyncTime: 1663699507.76484
+asMultiple: FALSE
+asStatic: FALSE

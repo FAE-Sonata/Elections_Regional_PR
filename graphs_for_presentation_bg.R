@@ -3,7 +3,7 @@ lapply(libraries_needed,require,character.only=TRUE)
 # library(shiny)
 setwd("C:/HY/Projects/Elections/datasets/")
 # source("CDN_election_regional_PR.R")
-actual_vs_pr_results<-fread("FPTP_vs_regional_PR_all_elections.csv", encoding="UTF-8")
+actual_vs_pr_results<-fread("../BasicBars_by_region/FPTP_vs_regional_PR_all_elections.csv", encoding="UTF-8")
 all_elxn<-fread("federal_elections_since_1921_cleaned.csv", encoding="UTF-8")
 party_key<-fread("elected_only.csv", encoding="UTF-8") %>% unique(by="Party")
 party_key<-party_key[,.(Party, Hexadecimal_colour)]
